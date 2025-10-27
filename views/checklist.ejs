@@ -1,0 +1,250 @@
+<%- include('./partials/header.ejs') %>
+<div class="container-fluid">
+        <form id="checkListForm" method="POST" action="/checklist">
+            <div class="row mb-2 mt-2">
+                <div class="col-md-6 "> <span class="fw-bold text-primary">Workshop name :</span> <span>Mantenaince</span></div>
+                <div class="col-md-6 "> <span class="fw-bold text-primary">Date checked :</span> <input type="date" name="dateChecked" class="form-control form-control-sm d-inline-block" style="width:auto;"></div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-6"> 
+                    <span class="fw-bold text-primary">Machine name :</span> 
+                    <select id="selMC" name="machineName" class="form-control form-control-sm d-inline-block" style="width:auto;"> 
+                        <option value="PD1" selected >PD1</option>
+                        <option value="PB1">PB1</option>
+                        <option value="PE2">PE2</option>    
+                    </select>
+                </div>
+                <div class="col-md-6 "> <span class="fw-bold text-primary">Checked by :</span> <input type="text" name="checkedBy" class="form-control form-control-sm d-inline-block" style="width:auto;"></div>
+            </div>
+            <!--PD1 machine-->
+            <table id="tablePD1" class="table table-bordered border-dark">
+                <tr>
+                    <th>Name of element</th>
+                    <th>Position</th>
+                    <th>Check point</th>
+                    <th>Standard</th>
+                    <th>Comment</th>
+                </tr>
+                <!--Merger 1-->
+                <tr>
+                    <td rowspan="4" style="text-align:center; vertical-align:middle;">Phần Kéo M81</td>
+                    <td rowspan="2">Lubricant system</td>
+                    <td>Oil level / Mức dầu</td>
+                    <td>Between upper &amp; lower limit</td>
+                    <td>
+                        <input type="text" name="comment" data-position="Lubricant system" data-checkpoint="Oil level / Mức dầu">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Oil port / Cột thăm nhớt</td>
+                    <td>Clear, can see / sạch sẽ, có thể nhìn thấy rõ</td>
+                    <td><input type="text" name="comment" data-position="Lubricant system" data-checkpoint="Oil port / Cột thăm nhớt"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Dầu hộp số / Oil Gear box</td>
+                    <td>Oil pipe / Ống dầu</td>
+                    <td>No leakage &amp; no bending / không bị rỉ dầu</td>
+                    <td><input type="text" name="comment" data-position="Dầu hộp số / Oil Gear box" data-checkpoint="Oil pipe / Ống dầu"></td>
+                </tr>
+                <tr>
+                    <td>Drawing ring / Tang kéo</td>
+                    <td>Surface is clear - not rust / bề mặt sạch, không rỗ</td>
+                    <td><input type="text" name="comment" data-position="Oil Gear box" data-checkpoint="Drawing ring / Tang kéo"></td>
+                </tr>
+                <!--Merger 2-->
+                <tr>
+                    <td rowspan="4" style="text-align:center; vertical-align:middle;"> Ủ R401.1</td>
+                    <td rowspan="4" style="text-align:center; vertical-align:middle;">R401.1</td>
+                    <td>contact pulley / các pully</td>
+                    <td>no vibration, surface is clear/ không bị rơ, dơ bề mặt</td>
+                    <td><input type="text" name="comment" data-position="R401.1" data-checkpoint="contact pulley / các pully"></td>
+                </tr>
+                <tr>
+                    <td>Niken band/Vòng Niken</td>
+                    <td>No rust, surface is clear/ bề mặt sạch</td>
+                    <td><input type="text" name="comment" data-position="R401.1" data-checkpoint="Niken band/Vòng Niken"></td>
+                </tr>
+                <tr>
+                    <td>Carbon brush/ Cổ góp</td>
+                    <td>No rust, surface is clear, not too short under 15mm/ bề mặt sạch, than ko dưới 15mm</td>
+                    <td><input type="text" name="comment" data-position="R401.1" data-checkpoint="Carbon brush/ Cổ góp"></td>
+                </tr>
+                <tr>
+                    <td>Belt/ Dây đai</td>
+                    <td>No slip, no bending/ ko trượt, không lỏng dưới 10%</td>
+                    <td><input type="text" name="comment" data-position="R401.1" data-checkpoint="Belt/ Dây đai"></td>
+                </tr>
+                <!--Merger 3-->
+                <tr>
+                    <td rowspan="4" style="text-align:center; vertical-align:middle;"> Spooler 630</td>
+                    <td rowspan="3" style="text-align:center; vertical-align:middle;">Hydraulic system</td>
+                    <td>Oil level/ Mức dầu</td>
+                    <td>Between upper & lower limit</td>
+                    <td><input type="text" name="comment"></td>
+                </tr>
+                <tr>
+                    <td>Oil port/ Cột thăm nhớt</td>
+                    <td>Clear, can to see/ sạch sẽ, có thể nhìn thấy rõ</td>
+                    <td><input type="text" name="comment" data-position="Spooler 630" data-checkpoint="Oil port/ Cột thăm nhớt"></td>
+                </tr>
+                <tr>
+                    <td>Oil pipe/ Ống dầu</td>
+                    <td>No leakage & no bending / không bị rĩ dầu</td>
+                    <td><input type="text" name="comment" data-position="Spooler 630" data-checkpoint="Oil pipe/ Ống dầu"></td>
+                </tr>
+                <tr>
+                    <td  style="text-align:center; vertical-align:middle;">Pulley</td>
+                    <td>Guide/ pulley/ Pully dẫn hướng</td>
+                    <td>no vibration, surface is clear/ không bị rơ, dơ bề mặt</td>
+                    <td><input type="text" name="comment" data-position="Pulley" data-checkpoint="Guide/ pulley/ Pully dẫn hướng"></td>
+                </tr>
+                
+                <!--Merger 3-->
+                <tr>
+                    <td rowspan="2" style="text-align:center; vertical-align:middle;"> Lồng Thu / Coiler</td>
+                    <td style="text-align:center; vertical-align:middle;">Guide pulley</td>
+                    <td>Guide pulley/ Pully dẫn hướng</td>
+                    <td>No vibration /  Không bị rơ</td>
+                    <td><input type="text" name="comment" data-position="Lồng Thu / Coiler" data-checkpoint="Guide pulley/ Pully dẫn hướng"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center; vertical-align:middle;">Belt</td>
+                    <td>Motor's belt</td>
+                    <td>Belt is not slip/ Dây đay ko bị trùng, nứt</td>
+                    <td><input type="text" name="comment" data-position="Lồng Thu / Coiler" data-checkpoint="Motor's belt"></td>
+                </tr>
+            </table>
+            <!--PB2 machine-->
+            <table id="tablePB1" class="table table-bordered border-dark">
+                <tr>
+                    <th>Name of element</th>
+                    <th>Position</th>
+                    <th>Check point</th>
+                    <th>Standard</th>
+                    <th>Comment</th>
+                </tr>
+                <tr>
+                    <td rowspan="19" style="text-align:center; vertical-align:middle;">Electrical System</td>
+                    <td rowspan="8">Phần xoắn / Flying</td>
+                    <td>Cảm biến / sensor</td>
+                    <td>Clear, can to see led light signal / sạch sẽ, có thể nhìn thấy rõ</td>
+
+                    <td><input type="text" name="comment" data-position="Phần xoắn / Flying" data-checkpoint="Cảm biến / sensor"></td>
+                </tr>
+                <tr>
+                    <td>Màn hình điều khiển / Monitor</td>
+                    <td>Following drawing / Theo bản vẽ</td>
+
+                    <td><input type="text" name="comment" data-position="Phần xoắn / Flying" data-checkpoint="Màn hình điều khiển / Monitor"></td>
+                </tr>
+                <tr>
+                    <td>Động cơ / Motor</td>
+                    <td>Noise / Tiếng ồn</td>
+                    
+                    <td><input type="text" name="comment"></td>
+                </tr>
+                <tr>
+                    <td>Quạt giải nhiệt / Cooling fan</td>
+                    <td>Noise / Tiếng ồn</td>
+
+                    <td><input type="text" name="comment" data-position="Phần xoắn / Flying" data-checkpoint="Quạt giải nhiệt / Cooling fan"></td>
+                </tr>
+                <tr>
+                    <td>Tủ điện / Electric cabinet</td>
+                    <td>Flowing drawing / Theo bản vẽ</td>
+
+                    <td><input type="text" name="comment" data-position="Phần xoắn / Flying" data-checkpoint="Tủ điện / Electric cabinet"></td>
+                </tr>
+                <tr>
+                    <td>Các nút nhấn / Button</td>
+                    <td>No vibrarion, surface is clear/ không bị rơ, dơ bền mặt</td>
+
+                    <td><input type="text" name="comment" data-position="Phần xoắn / Flying" data-checkpoint="Các nút nhấn / Button"></td>
+                </tr>
+                <tr>
+                    <td> Than / Carbon brush</td>
+                    <td>Abrasion below 50% / Độ mòn dưới 50%</td>
+
+                    <td><input type="text" name="comment" data-position="Phần xoắn / Flying" data-checkpoint="Than / Carbon brush"></td>
+                </tr>
+                <tr>
+                    <td> Biến tần / Inverter</td>
+                    <td>No vibrarion, surface is clear/ không bị rơ, dơ bền mặt</td>
+
+                    <td><input type="text" name="comment" data-position="Phần xoắn / Flying" data-checkpoint="Biến tần / Inverter"></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Bàn nâng / Lifting bobbin</td>
+                    <td>Cảm biến / Sensor</td>
+                    <td>Clear, can to see led light signal / sạch sẽ, có thể nhìn thấy rõ</td>
+
+                    <td><input type="text" name="comment" data-position="Bàn nâng / Lifting bobbin" data-checkpoint="Cảm biến / Sensor"></td>
+                </tr>
+                <tr>
+                    <td>Động cơ / Motor</td>
+                    <td>Noise / Tiếng ồn</td>
+
+                    <td><input type="text" name="comment" data-position="Bàn nâng / Lifting bobbin" data-checkpoint="Động cơ / Motor"></td>
+                </tr>
+                <tr>
+                    <td>Quạt giải nhiệt / Cooling fan</td>
+                    <td>Noise / Tiếng ồn</td>
+
+                    <td><input type="text" name="comment" data-position="Bàn nâng / Lifting bobbin" data-checkpoint="Quạt giải nhiệt / Cooling fan"></td>
+                </tr>
+                <tr>
+                    <td>Các nút nhấn / Button</td>
+                    <td>No vibrarion, surface is clear/ không bị rơ, dơ bền mặt</td>
+
+                    <td><input type="text" name="comment" data-position="Bàn nâng / Lifting bobbin" data-checkpoint="Các nút nhấn / Button"></td>
+                </tr>
+
+                <tr>
+                    <td rowspan="7">Phần thu / Take up</td>
+                    <td>Cảm biến / Sensor</td>
+                    <td>Clear, can to see led light signal / sạch sẽ, có thể nhìn thấy rõ</td>
+
+                    <td><input type="text" name="comment" data-position="Phần thu / Take up" data-checkpoint="Cảm biến / Sensor"></td>
+                </tr>
+                <tr>
+                    <td>Màn hình điều khiển / Monitor</td>
+                    <td>Following drawing / Theo bản vẽ</td>
+
+                    <td><input type="text" name="comment" data-position="Phần thu / Take up" data-checkpoint="Màn hình điều khiển / Monitor"></td>
+                </tr>
+                <tr>
+                    <td>Động cơ / Motor</td>
+                    <td>Noise / Tiếng ồn</td>
+
+                    <td><input type="text" name="comment" data-position="Phần thu / Take up" data-checkpoint="Động cơ / Motor"></td>
+                </tr>
+                <tr>
+                    <td>Quạt giải nhiệt / Cooling fan</td>
+                    <td>Noise / Tiếng ồn</td>
+
+                    <td><input type="text" name="comment" data-position="Phần thu / Take up" data-checkpoint="Quạt giải nhiệt / Cooling fan"></td>
+                </tr>
+                <tr>
+                    <td>Tủ điện / Electric cabinet</td>
+                    <td>Flowing drawing / Theo bản vẽ</td>
+
+                    <td><input type="text" name="comment" data-position="Phần thu / Take up" data-checkpoint="Tủ điện / Electric cabinet"></td>
+                </tr>
+                <tr>
+                    <td>Các nút nhấn / Button</td>
+                    <td>No vibrarion, surface is clear/ không bị rơ, dơ bền mặt</td>
+
+                    <td><input type="text" name="comment" data-position="Phần thu / Take up" data-checkpoint="Các nút nhấn / Button"></td>
+                </tr>
+                <tr>
+                    <td>Biến tần / Inverter</td>
+                    <td>No vibrarion, surface is clear/ không bị rơ, dơ bền mặt</td>
+
+                    <td><input type="text" name="comment" data-position="Phần thu / Take up" data-checkpoint="Biến tần / Inverter"></td>
+                </tr>
+            </table>
+            <button type="submit" class="btn btn-primary mt-3">Submit Checklist</button>
+        </form>
+    </div>
+    <script src="../public/js/checklist.js"></script>
+<%- include('./partials/footer.ejs') %>
