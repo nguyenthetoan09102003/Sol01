@@ -1,4 +1,9 @@
 body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #f8f9fa;
+  font-family: 'Times New Roman';
+  background-color: #f8f9fa;
+}
+
+.nav-link.active {
+  font-weight: 800; 
+  color: #ffa726 !important; 
 }

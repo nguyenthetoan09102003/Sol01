@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const checklistItemSchema = new mongoose.Schema({
     position: String,
     checkpoint: String,
-    comment: { type: String, default: '' }
+    comment: String
 });
 
 const checklistSchema = new mongoose.Schema({

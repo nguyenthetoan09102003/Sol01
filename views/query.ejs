@@ -1,0 +1,51 @@
+<%- include('./partials/header.ejs') %>
+<div class="container-fluid p-2">
+    <div class="card p-2 mb-4 shadow-sm w-100">
+        <div class="card-body">
+            <form id="lookupForm">
+                <div class="row g-2 align-items-end">
+                <div class="col-md-3">
+                    <label for="groupMachine" class="form-label">Group Machine</label>
+                    <select id="groupMachine" class="form-select">
+                    <option value="">All</option>
+                    <option value="group1">Upcast & Drawing</option>
+                    <option value="group2">Stranding & Buncher & Cabling & Jelly & Laying Up</option>
+                    <option value="group3">Wrapping & Taping</option>
+                    <option value="group4">Sheathing & Insulation</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label for="machineName" class="form-label">Machine Name</label>
+                    <select id="machineName" class="form-select">
+                    <option value="">All</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label for="dateFrom" class="form-label">From</label>
+                    <input type="datetime-local" id="dateFrom" class="form-control">
+                </div>
+
+                <div class="col-md-2">
+                    <label for="dateTo" class="form-label">To</label>
+                    <input type="datetime-local" id="dateTo" class="form-control">
+                </div>
+
+                <div class="col-md-1">
+                    <button type="submit" class="btn btn-primary w-100">Search</button>
+                </div>
+
+                <div class="col-md-2">
+                    <button type="button" id="exportBtn" class="btn btn-success w-100">Export to Excel</button>
+                </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="results">
+            <div class="alert alert-info text-center">Please select search criteria and click Search to view data.</div>
+    </div>
+</div>
+
+<%- include('./partials/footer.ejs') %>

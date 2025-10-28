@@ -6,18 +6,5 @@
         </small>
     </div>
     </footer>
-    <script>
-    const select = document.getElementById('selMC');
-
-    select.addEventListener('change', function() {
-        const value = this.value;
-        document.getElementById('tablePD1').style.display = 'none';
-        document.getElementById('tablePB1').style.display = 'none';
-        if(value === 'PD1') document.getElementById('tablePD1').style.display = 'table';
-        if(value === 'PB1') document.getElementById('tablePB1').style.display = 'table';
-        if(value === 'PE1') document.getElementById('tablePE1').style.display = 'table';
-    });
-    </script>
-
 </body>
 </html>

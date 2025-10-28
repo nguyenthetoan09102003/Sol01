@@ -6,24 +6,36 @@ exports.getChecklist = (req, res) => {
      });
 };
 
+
 exports.saveData = async (req, res) => {
   try {
-    const { dateChecked, machineName, checkedBy, checklist } = req.body;
+    let { dateChecked, machineName, checkedBy, checklist } = req.body;
 
-    const checklistArray = Array.isArray(checklist) ? checklist : [];
+    // If client submitted form-urlencoded inputs named "comment",
+    // bodyParser will produce req.body.comment (string or array).
+    // Normalize into checklist array of objects when checklist not present.
+    if (!checklist) {
+      const comments = req.body.comment;
+      if (comments) {
+        const arr = Array.isArray(comments) ? comments : [comments];
+        checklist = arr.map(c => ({ comment: (c || "").trim() }));
+      } else {
+        checklist = [];
+      }
+    }
 
     const newChecklist = new Checklist({
       machineName: machineName,
       dateChecked,
       checkedBy: checkedBy,
-      checklist: checklistArray
+      checklist: checklist
     });
 
     await newChecklist.save();
 
     res.status(200).json({
       success: true,
-      message: "Checklist saved successfully!"
+      message: "Checklist saved successfully"
     });
   } catch (err) {
     console.error("Error saving checklist:", err);
