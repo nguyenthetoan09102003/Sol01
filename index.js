@@ -6,7 +6,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const checklistRoutes = require('./routes/checklistRoutes');
 const homeRoutes = require('./routes/homeRoutes');
-const queryRoutes = require('./routes/queryRoutes');
+const reportRoutes = require('./routes/reportRoutes');
+const todoRoutes = require('./routes/todoRoutes');
 const authRouters = require("./routes/authRoutes");
 const cookieParser = require("cookie-parser");
 const { requireAuth, checkUser } = require("./middleware/authMiddleware");
@@ -34,7 +35,9 @@ app.set("views", path.join(__dirname, "views"));
 app.use(authRouters); //1
 app.use('/', homeRoutes);
 app.use('/checklist', requireAuth , checklistRoutes);
-app.use('/query', requireAuth , queryRoutes);
+app.use('/report', requireAuth, reportRoutes);
+app.use('/todo', requireAuth, todoRoutes);
+
 
 app.use((req, res, next) => {
   const publicRoutes = ["/", "/login", "/signup", "/logout"];

@@ -17,30 +17,36 @@
                 <% if (typeof user !== 'undefined' && user) { %>
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'home' ? 'active' : '' %>" href="/dashboard">
-                            <i class="bi bi-speedometer2"></i> Home
+                           <i class="fa-solid fa-house"></i> Home
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'checklist' ? 'active' : '' %>" href="/checklist">
-                            <i class="bi bi-speedometer2"></i> Checklist
+                            <i class="fa-solid fa-list-ul"></i> Checklist
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 small" href="/warehouse">
-                            <i class="bi bi-bar-chart"></i> Warehouse
+                            <i class="fa-solid fa-screwdriver-wrench"></i> Warehouse
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'query' ? 'active' : '' %>" href="/query">
-                            <i class="bi bi-file-earmark-text"></i> Query
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'report' ? 'active' : '' %>" href="/report">
+                            <i class="fa-solid fa-magnifying-glass"></i> Report
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'todo' ? 'active' : '' %>" href="/todo">
+                            <i class="fa-solid fa-clipboard-list"></i> Todo
                         </a>
                     </li>
                   
-                    <li class="nav-item ms-1">
-                        <span class="nav-link disabled fw-semibold small" style="color:#ffa726; background:rgba(255,167,38,0.15); border-radius:1.5rem; padding:0.2rem 0.8rem;">
-                            <i class="bi bi-person-circle"></i> <%= user.username || user.email %>
+                    <li class="nav-item ms-1 justify-content-center">
+                        <span class="nav-link fw-bold small" style="color:#ffffff; background:rgba(255,167,38,0.15); border-radius:5px; padding:5px 10px;">
+                            <i class="fa-regular fa-user"></i> <%= user.username %>
                         </span>
                     </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 small" href="/logout">
                         <i class="bi bi-box-arrow-right"></i> Logout

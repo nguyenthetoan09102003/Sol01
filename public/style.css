@@ -1,9 +1,21 @@
 body {
-  font-family: 'Times New Roman';
+  font-family: 'serif';
   background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; /* prevent page-level horizontal scroll */
 }
 
 .nav-link.active {
   font-weight: 800; 
   color: #ffa726 !important; 
 }
+
+/* Keep footer at the bottom when content is short */
+footer {
+  margin-top: auto;
+}
+
+
+
