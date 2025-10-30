@@ -2,7 +2,8 @@ const Checklist = require('../models/checklistModel');
 exports.getChecklist = (req, res) => {
   res.render('checklist', 
     { user: res.locals.user,
-      activeNav: 'checklist'
+      activeNav: 'checklist',
+      title : 'Checklist'
      });
 };
 

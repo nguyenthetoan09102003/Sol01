@@ -5,7 +5,7 @@ const path = require("path");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const checklistRoutes = require('./routes/checklistRoutes');
-const homeRoutes = require('./routes/homeRoutes');
+const dashboardRoutes = require('./routes/dashboardRoutes');
 const reportRoutes = require('./routes/reportRoutes');
 const todoRoutes = require('./routes/todoRoutes');
 const authRouters = require("./routes/authRoutes");
@@ -33,7 +33,7 @@ app.set("views", path.join(__dirname, "views"));
 
 //Routes
 app.use(authRouters); //1
-app.use('/', homeRoutes);
+app.use('/', dashboardRoutes);
 app.use('/checklist', requireAuth , checklistRoutes);
 app.use('/report', requireAuth, reportRoutes);
 app.use('/todo', requireAuth, todoRoutes);

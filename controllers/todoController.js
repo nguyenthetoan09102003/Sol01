@@ -8,7 +8,8 @@ exports.getTodos = async (req, res) => {
     res.render('To-dolist', { 
       user: res.locals.user,
       todos: todos,
-      activeNav: 'todo'
+      activeNav: 'todo',
+      title : 'To-do List'
     });
   } catch (err) {
     console.error("Error fetching todos:", err);
@@ -19,7 +20,7 @@ exports.getTodos = async (req, res) => {
   }
 };
 
-// Create todos from checklists with issues (non-empty comments)
+// *** CREATE TODOLIST FROM CHECKLIST ***//
 exports.createTodosFromChecklist = async (req, res) => {
   try {
     // Get filter parameters

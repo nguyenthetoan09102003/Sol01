@@ -14,7 +14,8 @@ const GROUP_TO_MACHINES = {
 exports.getReportPage = (req, res) => {
   res.render('report', 
     { user: res.locals.user,
-      activeNav: 'report'
+      activeNav: 'report',
+      title : 'Report'
      });
 };
 
