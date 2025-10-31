@@ -9,8 +9,13 @@ const dashboardRoutes = require('./routes/dashboardRoutes');
 const reportRoutes = require('./routes/reportRoutes');
 const todoRoutes = require('./routes/todoRoutes');
 const authRouters = require("./routes/authRoutes");
+
+const workOrderRoutes = require('./routes/workOrderRoutes');
+
+
 const cookieParser = require("cookie-parser");
 const { requireAuth, checkUser } = require("./middleware/authMiddleware");
+
 
 
 require("dotenv").config();
@@ -23,6 +28,17 @@ mongoose.connect("mongodb://localhost:27017/Maintenance", {
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use('/bootstrap-icons', express.static(__dirname + '/node_modules/bootstrap-icons/font'));
+app.use('/font-awesome', express.static(__dirname + '/node_modules/font-awesome'));
+app.use('/fontawesome', express.static(__dirname + '/node_modules/@fortawesome/fontawesome-free'));
+
+
+app.use('/workorders', workOrderRoutes);
+
+
+app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
+
+
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(cookieParser());

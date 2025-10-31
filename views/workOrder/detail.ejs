@@ -1,0 +1,11 @@
+<!-- views/workOrder/detail.ejs -->
+<h1>Chi tiết Work Order: <%= workOrder.itemCode %></h1>
+
+<!-- Hiển thị dữ liệu -->
+<img src="<%= workOrder.image %>" alt="Equipment" style="max-width: 300px;">
+
+<!-- Nút Preview (xem trong browser) -->
+<a href="/workorders/<%= workOrder._id %>/pdf-preview" target="_blank" class="btn btn-info">Preview PDF</a>
+
+<!-- Nút Download -->
+<a href="/workorders/<%= workOrder._id %>/pdf" class="btn btn-success" download>Download PDF</a>

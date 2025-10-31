@@ -28,26 +28,31 @@ exports.createTodosFromChecklist = async (req, res) => {
     
     // Build query
     let query = {};
-    
+
     if (startDate && endDate) {
-      // Date range specified
       const start = new Date(startDate);
       start.setHours(0, 0, 0, 0);
       const end = new Date(endDate);
       end.setHours(23, 59, 59, 999);
-      query.createdAt = { $gte: start, $lte: end };
+      query.dateChecked = { $gte: start, $lte: end }; // lọc theo ngày kiểm tra
     } else if (days) {
-      // Number of days specified
       const targetDate = new Date();
       targetDate.setDate(targetDate.getDate() - days);
-      query.createdAt = { $gte: targetDate };
+      query.dateChecked = { $gte: targetDate };
     } else {
-      // Default: last 7 days
       const targetDate = new Date();
       targetDate.setDate(targetDate.getDate() - 7);
-      query.createdAt = { $gte: targetDate };
+      query.dateChecked = { $gte: targetDate };
     }
-    
+
+
+    //Debug Log
+    // console.log("Query used:", query);
+
+    // const s = await Checklist.find(query).sort({ createdAt: -1 });
+
+    // console.log("Checklist count:", s.length);
+
     // Filter by machine if specified
     if (machineName && machineName !== 'all') {
       query.machineName = machineName;

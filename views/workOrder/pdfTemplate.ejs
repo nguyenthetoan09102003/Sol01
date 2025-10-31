@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Item Datasheet</title>
+  <style>
+    body { font-family: Arial, sans-serif; font-size: 10pt; margin: 0; padding: 20px; }
+    .header { border-bottom: 2px solid black; padding-bottom: 5px; display: flex; justify-content: space-between; }
+    .header h1 { margin: 0; font-size: 14pt; }
+    .header .version { font-size: 9pt; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    td { vertical-align: top; padding: 3px; }
+    .label { font-weight: bold; width: 150px; }
+    .image { text-align: right; }
+    .image img { width: 180px; height: auto; border: 1px solid #ddd; }
+    .footer { position: fixed; bottom: 10px; left: 0; right: 0; font-size: 8pt; text-align: center; }
+    .page-number { text-align: right; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Item Datasheet</h1>
+    <div class="version">Version Not Registered</div>
+  </div>
+
+  <strong>Criteria:</strong><br>
+  Item equals <%= workOrder.itemCode %> - <%= workOrder.itemName %><br><br>
+
+  <strong><%= workOrder.itemCode %> - <%= workOrder.itemName %></strong>
+
+  <table>
+    <tr>
+      <td class="label">System:</td>
+      <td><%= workOrder.system %></td>
+      <td class="label">Cost Center:</td>
+      <td><%= workOrder.costCenter || '-' %></td>
+    </tr>
+    <tr>
+      <td class="label">Operator:</td>
+      <td><%= workOrder.operator || '-' %></td>
+      <td class="label">Since:</td>
+      <td><%= workOrder.since ? new Date(workOrder.since).toLocaleDateString() : '-' %></td>
+    </tr>
+    <tr>
+      <td class="label">Supplier:</td>
+      <td><%= workOrder.supplier || '-' %></td>
+      <td class="label">Date:</td>
+      <td><%= new Date(workOrder.date).toLocaleDateString() %></td>
+    </tr>
+  </table>
+
+  <strong>Operational Data:</strong>
+  <table>
+    <tr>
+      <td class="label">Record (H):</td>
+      <td><%= workOrder.operationalData.recordH %></td>
+      <td class="label">Useful Life</td>
+      <td><%= workOrder.operationalData.usefulLife %></td>
+      <td class="label">Investment:</td>
+      <td><%= workOrder.operationalData.investment.toFixed(2) %></td>
+      <td class="label">Total Amount</td>
+      <td><%= workOrder.operationalData.totalAmount.toFixed(2) %></td>
+    </tr>
+    <tr>
+      <td class="label">FMD:</td>
+      <td><%= workOrder.operationalData.fmd.toFixed(2) %> H</td>
+      <td class="label">Last Rec. (H):</td>
+      <td><%= workOrder.operationalData.lastRecH %></td>
+      <td class="label">Date:</td>
+      <td colspan="3"><%= workOrder.operationalData.lastRecDate ? new Date(workOrder.operationalData.lastRecDate).toLocaleDateString() : '-' %></td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td rowspan="10" style="width: 60%;">
+        <strong>Specifications:</strong><br>
+        <strong>Item Type:</strong> <%= workOrder.specifications.itemType %><br>
+        <table style="margin-top: 5px;">
+          <tr><td class="label">MANUFACTURER</td><td><%= workOrder.specifications.manufacturer || '-' %></td><td class="label">MODEL</td><td><%= workOrder.specifications.model || '-' %></td></tr>
+          <tr><td class="label">SERIAL NO.</td><td><%= workOrder.specifications.serialNo || '-' %></td><td class="label">YEAR</td><td><%= workOrder.specifications.year || '-' %></td></tr>
+          <tr><td class="label">STANDARDS</td><td colspan="3"><%= workOrder.specifications.standards || '-' %></td></tr>
+          <tr><td class="label">CERTIFICATE NO.</td><td colspan="3"><%= workOrder.specifications.certificateNo || '-' %></td></tr>
+          <tr><td class="label">LOC.</td><td><%= workOrder.specifications.loc || '-' %></td><td class="label">TYPE</td><td><%= workOrder.specifications.type || '-' %></td></tr>
+          <tr><td class="label">MATERIAL</td><td colspan="3"><%= workOrder.specifications.material || '-' %></td></tr>
+          <tr><td class="label">DIMENSIONS</td><td><%= workOrder.specifications.dimensions || '-' %></td><td class="label">WEIGHT (kg)</td><td><%= workOrder.specifications.weight || '-' %></td></tr>
+          <tr><td class="label">NOMINAL POWER</td><td><%= workOrder.specifications.nominalPower || '-' %></td><td class="label">ENERGY TYPE</td><td><%= workOrder.specifications.energyType || '-' %></td></tr>
+          <tr><td class="label">INSUL. CLASS</td><td><%= workOrder.specifications.insulClass || '-' %></td><td class="label">IP CLASS</td><td><%= workOrder.specifications.ipClass || '-' %></td></tr>
+        </table>
+      </td>
+      <td class="image">
+        <% if (workOrder.image) { %>
+          <img src="<%= workOrder.image.replace('public', '') %>" alt="Equipment">
+        <% } else { %>
+          <div style="width:180px;height:180px;border:1px dashed #ccc;display:flex;align-items:center;justify-content:center;color:#999;">
+            No Image
+          </div>
+        <% } %>
+      </td>
+    </tr>
+  </table>
+
+  <strong>Coding:</strong>
+  <table>
+    <tr>
+      <td class="label">Type:</td>
+      <td><%= workOrder.coding.type || '-' %></td>
+      <td class="label">Plant</td>
+      <td><%= workOrder.coding.plant || '-' %></td>
+      <td class="label">Criticality:</td>
+      <td><%= workOrder.coding.criticality %></td>
+    </tr>
+    <tr>
+      <td class="label">Structured Code:</td>
+      <td><%= workOrder.coding.structuredCode || '-' %></td>
+      <td class="label">Vehicle ID:</td>
+      <td><%= workOrder.coding.vehicleId || '-' %></td>
+      <td class="label">MME Code:</td>
+      <td><%= workOrder.coding.mmeCode || '-' %></td>
+    </tr>
+    <tr>
+      <td class="label">User Code No. 1:</td>
+      <td><%= workOrder.coding.userCode1 || '-' %></td>
+      <td class="label">User Code No. 2:</td>
+      <td colspan="3"><%= workOrder.coding.userCode2 || '-' %></td>
+    </tr>
+  </table>
+
+  <strong>Other Information:</strong>
+  <table>
+    <tr>
+      <td class="label">Family:</td>
+      <td><%= workOrder.otherInfo.family || '-' %></td>
+      <td class="label">Fuel:</td>
+      <td><%= workOrder.otherInfo.fuel || '-' %></td>
+    </tr>
+  </table>
+
+  <div class="footer">
+    <%= moment().format('MM/DD/YYYY hh:mm:ss A') %> | ManWinWin Express V. 7.2.2.4 | 1 / 1
+  </div>
+</body>
+</html>

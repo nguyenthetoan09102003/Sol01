@@ -1,0 +1,17 @@
+<%- include('../partials/header') %>
+<h2>Tạo Work Order Mới</h2>
+<form action="/workorders" method="POST" enctype="multipart/form-data">
+  <label>Hình ảnh thiết bị:</label>
+  <input type="file" name="image" accept="image/*"><br><br>
+
+  <label>Manufacturer:</label>
+  <input type="text" name="specifications[manufacturer]"><br>
+
+  <label>Model:</label>
+  <input type="text" name="specifications[model]"><br>
+
+  <!-- Thêm các field khác tương tự -->
+
+  <button type="submit">Tạo Work Order</button>
+</form>
+<%- include('../partials/footer') %>
