@@ -16,8 +16,8 @@
             <ul class="navbar-nav align-items-center gap-1 ms-auto">
                 <% if (typeof user !== 'undefined' && user) { %>
                     <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'home' ? 'active' : '' %>" href="/dashboard">
-                           <i class="fa-solid fa-house"></i> Home
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'dashboard' ? 'active' : '' %>" href="/dashboard">
+                           <i class="bi bi-speedometer2"></i> Dashboard
                         </a>
                     </li>
                     <li class="nav-item">

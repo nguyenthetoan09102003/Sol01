@@ -10,8 +10,10 @@ const reportRoutes = require('./routes/reportRoutes');
 const todoRoutes = require('./routes/todoRoutes');
 const authRouters = require("./routes/authRoutes");
 
-const workOrderRoutes = require('./routes/workOrderRoutes');
 
+
+const workOrderRoutes = require('./routes/workOrderRoutes');
+const reportChecklistRoutes = require('./routes/reportChecklistRoutes');
 
 const cookieParser = require("cookie-parser");
 const { requireAuth, checkUser } = require("./middleware/authMiddleware");
@@ -50,9 +52,15 @@ app.set("views", path.join(__dirname, "views"));
 //Routes
 app.use(authRouters); //1
 app.use('/', dashboardRoutes);
+app.use('/reportchecklist', reportChecklistRoutes);
 app.use('/checklist', requireAuth , checklistRoutes);
 app.use('/report', requireAuth, reportRoutes);
 app.use('/todo', requireAuth, todoRoutes);
+
+app.use(express.json({ limit: '10mb' })); 
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
+
 
 
 app.use((req, res, next) => {

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= title %></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    img.thumbnail {
+      max-width: 120px;
+      max-height: 120px;
+      object-fit: cover;
+      border: 1px solid #ccc;
+      margin: 2px;
+    }
+  </style>
+</head>
+<body class="p-4">
+  <div class="container">
+    <h3>Danh sách Checklist</h3>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Machine Name</th>
+          <th>Checked By</th>
+          <th>Date Checked</th>
+          <th>Checklist Items</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% checklists.forEach((cl, idx) => { %>
+          <tr>
+            <td><%= idx + 1 %></td>
+            <td><%= cl.machineName %></td>
+            <td><%= cl.checkedBy %></td>
+            <td><%= new Date(cl.dateChecked).toLocaleString() %></td>
+            <td>
+              <ul>
+                <% cl.checklist.forEach(item => { %>
+                  <li>
+                    <strong><%= item.position %> - <%= item.checkpoint %></strong><br>
+                    Comment: <%= item.comment %><br>
+                    <% if (item.imageBase64) { %>
+                      <img src="<%= item.imageBase64 %>" class="thumbnail">
+                    <% } %>
+                  </li>
+                <% }) %>
+              </ul>
+            </td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

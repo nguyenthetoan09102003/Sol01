@@ -47,11 +47,11 @@ exports.createTodosFromChecklist = async (req, res) => {
 
 
     //Debug Log
-    // console.log("Query used:", query);
+    console.log("Query used:", query);
 
-    // const s = await Checklist.find(query).sort({ createdAt: -1 });
+    const s = await Checklist.find(query).sort({ createdAt: -1 });
 
-    // console.log("Checklist count:", s.length);
+    console.log("Checklist count:", s.length);
 
     // Filter by machine if specified
     if (machineName && machineName !== 'all') {
@@ -76,9 +76,10 @@ exports.createTodosFromChecklist = async (req, res) => {
             machineName: checklist.machineName,
             position: item.position,
             checkpoint: item.checkpoint,
+            comment: item.comment,
             status: { $in: ['pending', 'in_progress'] }
           });
-
+          
           if (!existingTodo) {
             const todo = new Todo({
               machineName: checklist.machineName,
