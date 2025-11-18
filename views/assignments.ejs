@@ -1,0 +1,66 @@
+<%- include('./partials/header.ejs') %>
+<div class="container mt-4">
+  <h3>Phân công công việc</h3>
+  <!-- Date & Shift Selection -->
+  <div class="row g-3 mb-3 border rounded p-3 mt-4">
+    <div class="col-md-3">
+      <label>Ngày</label>
+      <input type="date" id="globalDate" class="form-control" required>
+    </div>
+    <div class="col-md-3">
+      <label>Ca</label>
+      <select id="globalShift" class="form-control" required>
+        <option value="morning">Sáng</option>
+        <option value="evening">Tối</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Form Enter Daily Record -->
+<form id="taskForm" class="row g-3 mb-4">
+  <div class="col-md-3">
+    <label>Máy</label>
+    <input type="text" name="machine" class="form-control" required>
+  </div>
+
+  <div class="col-md-5">
+    <label>Công việc</label>
+    <input type="text" name="task" class="form-control" required>
+  </div>
+
+  <div class="col-md-12">
+    <label>Thành viên </label>
+    <div class="row">
+      <% const membersList = ["Sang","H.Tuấn","Sup.Tuấn","V.Tuấn","Trung","Khả","Tú","Hoàng","Trường","Tài","Tố","Đăng","Hiếu","Nam","Thọ","Nhựt","Nhân","Giang"]; %>
+      <% membersList.forEach((m, i) => { %>
+        <div class="col-md-2 form-check">
+          <input class="form-check-input" type="checkbox" name="members" value="<%= m %>" id="mem<%= i %>">
+          <label class="form-check-label" for="mem<%= i %>"><%= m %></label>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+
+  <div class="col-md-12 text-end mt-3">
+    <button type="button" id="btnAdd" class="btn btn-secondary">Thêm vào danh sách</button>
+    <button type="button" id="btnSubmitAll" class="btn btn-primary">Nộp tất cả</button>
+  </div>
+</form>
+  <!-- Preview -->
+  <h5>Bảng xem trước khi nộp</h5>
+  <table class="table table-bordered" id="tempTable">
+    <thead>
+      <tr>
+        <th>Ngày</th>
+        <th>Máy</th>
+        <th>Ca</th>
+        <th>Công việc</th>
+        <th>Thành viên</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+<script src="/js/assignment.js"></script>
+<%- include('./partials/footer.ejs') %>

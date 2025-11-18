@@ -9,7 +9,8 @@ const dashboardRoutes = require('./routes/dashboardRoutes');
 const reportRoutes = require('./routes/reportRoutes');
 const todoRoutes = require('./routes/todoRoutes');
 const authRouters = require("./routes/authRoutes");
-
+const assignmentRoutes = require('./routes/assignmentRoutes');
+const queryAssignmentRoutes = require('./routes/queryAssignmentRoutes');
 
 
 const workOrderRoutes = require('./routes/workOrderRoutes');
@@ -45,6 +46,11 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(cookieParser());
 app.use(checkUser);
+// Default title for views to avoid EJS ReferenceError when `title` is not provided
+app.use((req, res, next) => {
+  res.locals.title = 'Maintenance System';
+  next();
+});
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
@@ -56,7 +62,8 @@ app.use('/reportchecklist', reportChecklistRoutes);
 app.use('/checklist', requireAuth , checklistRoutes);
 app.use('/report', requireAuth, reportRoutes);
 app.use('/todo', requireAuth, todoRoutes);
-
+app.use('/assignments', requireAuth, assignmentRoutes);
+app.use('/queryassignments', requireAuth, queryAssignmentRoutes);
 app.use(express.json({ limit: '10mb' })); 
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 

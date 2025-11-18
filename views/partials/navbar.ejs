@@ -26,6 +26,16 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'assignments' ? 'active' : '' %>" href="/assignments">
+                            <i class="fa-solid fa-clipboard-list"></i> Assignments 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'queryAssignments' ? 'active' : '' %>" href="/queryAssignments">
+                            <i class="fa-solid fa-clipboard-list"></i> Query Assignments 
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 small" href="/warehouse">
                             <i class="fa-solid fa-screwdriver-wrench"></i> Warehouse
                         </a>
@@ -35,12 +45,7 @@
                             <i class="fa-solid fa-magnifying-glass"></i> Report
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'todo' ? 'active' : '' %>" href="/todo">
-                            <i class="fa-solid fa-clipboard-list"></i> Todo
-                        </a>
-                    </li>
-                  
+
                     <li class="nav-item ms-1 justify-content-center">
                         <span class="nav-link fw-bold small" style="color:#ffffff; background:rgba(255,167,38,0.15); border-radius:5px; padding:5px 10px;">
                             <i class="fa-regular fa-user"></i> <%= user.username %>
