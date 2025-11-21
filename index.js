@@ -11,11 +11,10 @@ const todoRoutes = require('./routes/todoRoutes');
 const authRouters = require("./routes/authRoutes");
 const assignmentRoutes = require('./routes/assignmentRoutes');
 const queryAssignmentRoutes = require('./routes/queryAssignmentRoutes');
-
-
+const waterRoutes = require('./routes/waterelectric/waterRoutes');
+const electricRoutes = require('./routes/waterelectric/electricRoutes');
 const workOrderRoutes = require('./routes/workOrderRoutes');
 const reportChecklistRoutes = require('./routes/reportChecklistRoutes');
-
 const cookieParser = require("cookie-parser");
 const { requireAuth, checkUser } = require("./middleware/authMiddleware");
 
@@ -64,12 +63,11 @@ app.use('/report', requireAuth, reportRoutes);
 app.use('/todo', requireAuth, todoRoutes);
 app.use('/assignments', requireAuth, assignmentRoutes);
 app.use('/queryassignments', requireAuth, queryAssignmentRoutes);
+app.use('/water', requireAuth, waterRoutes);
+app.use('/electric', requireAuth, electricRoutes);
+
 app.use(express.json({ limit: '10mb' })); 
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
-
-
-
-
 app.use((req, res, next) => {
   const publicRoutes = ["/", "/login", "/signup", "/logout"];
   if (publicRoutes.includes(req.path) || req.path.startsWith("/public/")) {

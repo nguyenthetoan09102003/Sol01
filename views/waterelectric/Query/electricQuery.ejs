@@ -1,0 +1,72 @@
+<%- include('../../partials/header.ejs') %>
+<div class="container mt-4">
+  <h3>Electric Query</h3>
+
+  <form id="queryForm" class="row g-3 mt-3">
+    <div class="col-md-3">
+      <label>From</label>
+      <input type="date" name="from" class="form-control">
+    </div>
+    <div class="col-md-3">
+      <label>To</label>
+      <input type="date" name="to" class="form-control">
+    </div>
+    <div class="col-md-3">
+      <label>Station</label>
+      <select name="stationCode" class="form-select">
+        <option value="">All</option>
+        <% if (Array.isArray(stations)) { %>
+          <% stations.forEach(s => { %>
+            <option value="<%= s %>"><%= s %></option>
+          <% }) %>
+        <% } %>
+      </select>
+    </div>
+    <div class="col-md-3 align-self-end">
+      <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+  </form>
+
+  <div id="results" class="mt-4"></div>
+</div>
+
+<script>
+document.getElementById('queryForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const form = e.target;
+  const params = new URLSearchParams();
+  if (form.from.value) params.append('from', form.from.value);
+  if (form.to.value) params.append('to', form.to.value);
+  if (form.stationCode && form.stationCode.value) params.append('stationCode', form.stationCode.value);
+
+  const res = await fetch('/electric/query?' + params.toString(), { headers: { 'Accept': 'application/json' } });
+  if (!res.ok) return document.getElementById('results').innerHTML = '<div class="alert alert-danger">Error fetching results</div>';
+  const ct = res.headers.get('content-type') || '';
+  if (!ct.includes('application/json')) {
+    return document.getElementById('results').innerHTML = '<div class="alert alert-danger">Server returned non-JSON (HTML) — check server logs</div>';
+  }
+  const data = await res.json();
+
+  if (!Array.isArray(data)) return document.getElementById('results').innerHTML = '<div class="alert alert-warning">No data</div>';
+
+  const table = document.createElement('table');
+  table.className = 'table table-bordered';
+  table.innerHTML = `
+    <thead><tr><th>Date</th><th>Station</th><th>Reading</th><th>Consumption (kWh)</th><th>Days</th></tr></thead>
+  `;
+  const tbody = document.createElement('tbody');
+  data.forEach(d => {
+    const tr = document.createElement('tr');
+    // format date as mm/dd/yyyy
+    const dt = new Date(d.date);
+    const dd = String(dt.getMonth()+1).padStart(2,'0') + '/' + String(dt.getDate()).padStart(2,'0') + '/' + dt.getFullYear();
+    tr.innerHTML = `<td>${dd}</td><td>${d.stationCode}</td><td>${d.electricReading}</td><td>${d.consumption ?? ''}</td><td>${d.daysBetween ?? ''}</td>`;
+    tbody.appendChild(tr);
+  });
+  table.appendChild(tbody);
+  document.getElementById('results').innerHTML = '';
+  document.getElementById('results').appendChild(table);
+});
+</script>
+
+<%- include('../../partials/footer.ejs') %>

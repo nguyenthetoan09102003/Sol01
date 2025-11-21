@@ -1,0 +1,4719 @@
+[{
+  "_id": {
+    "$oid": "690abe5302d2d9c2f4edc10d"
+  },
+  "date": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Bát đỡ giảm chấn chuyển thanh cuộn bị gãy : Kiểm tra taro và lắp lại, Bếp nối hơi cháy : Thay bếp mới (bếp 380-18KW : 1)",
+  "members": [
+    "Tú",
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690abef702d2d9c2f4edc111"
+  },
+  "date": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm 3",
+  "task": "đục nền để  lấy loppe lên và thay ron loppe",
+  "members": [
+    "Sang",
+    "H.Tuấn",
+    "Hoàng",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac26402d2d9c2f4edc113"
+  },
+  "date": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Tiện  ống ren 21 để lắp cho lỗ thông hơi hộp số đo bị xì nhớt ra lỗ thông hơi (chưa xong)",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac26402d2d9c2f4edc114"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm 3",
+  "task": "Bơm làm mát PD1 xì phốt: tháo motor thay phốt và bạc đạn (bạc đạn 6309 : 1, vô mỡ 1, phốt nhọn 28:1) và sơn lại motor",
+  "members": [
+    "Sang",
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac26402d2d9c2f4edc115"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Thắng bobin bị nhả chậm: kiểm tra xả gió bầu thắng",
+  "members": [
+    "Tú",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac26402d2d9c2f4edc116"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS3",
+  "task": "dàn 18 ben bị hư phốt đít : tháo kiểm tra thay phốt (phốt 40x46x8 : 1)",
+  "members": [
+    "Sang",
+    "Tú",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac26402d2d9c2f4edc117"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC1",
+  "task": "poff 1 rớt mặt bích giữ đầu côn : tiện lại mặt bích và lắp lại",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac26402d2d9c2f4edc118"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "tiện ren làm ống thông hơi cho hộp số (chưa lắp)",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac26402d2d9c2f4edc119"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT4",
+  "task": "Dàn xã bị kẹt bobbin đội motor : lỗi do vận hành lên bobbin bị lẹch dẫn đến kẹt ụ côn làm motor bị đội lên",
+  "members": [
+    "Khả",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac4b502d2d9c2f4edc151"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Kiểm tra gắn lại thanh chặn ben, thay đầu cấp khí bị xì (8 ren 13 : 10 cái), gắn ống thông hơi hộp số do bị xì dầu",
+  "members": [
+    "Khả",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac4b502d2d9c2f4edc152"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "Cắt sắt để đi đường máng điện mới",
+  "members": [
+    "Khả",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac4b502d2d9c2f4edc153"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm 3",
+  "task": "gắn bơm cooling PD1",
+  "members": [
+    "Sang",
+    "Tú",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac4b502d2d9c2f4edc154"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT1",
+  "task": "Thay đây đai dàn thu do bị chai dẫn đến trượt đai (A55 : 4)",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac54602d2d9c2f4edc157"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "Kiểm tra van xả nito do bị xì (đợi máy chạy test), thay T60 bị lũng xì nito (T60 : 1 cái)",
+  "members": [
+    "Sang",
+    "Tú",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac54602d2d9c2f4edc158"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Hư lò hơi 1, lò hơi 2 đứt bếp, thay CB tổng nồi hơi",
+  "members": [
+    "Hoàng",
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac54602d2d9c2f4edc159"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "Ghi chỉ số điện xưởng cáp điện",
+  "members": [
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ac54602d2d9c2f4edc15a"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC4",
+  "task": "Thay biến trở dàn thu (biến trở 10v : 1)",
+  "members": [
+    "Hoàng",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690acb8deef8a2a24336f8b1"
+  },
+  "date": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE1",
+  "task": "Dàn thu ra vô không được - bị kẹt trục",
+  "members": [
+    "V.Tuấn",
+    "Tố",
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690acb8deef8a2a24336f8b2"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PV2",
+  "task": "Máy lạnh lầu 1 không hoạt động - hư board mạch - dính công tắc tơ",
+  "members": [
+    "Tài",
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690acb8deef8a2a24336f8b3"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PD1",
+  "task": "Bơm nước bị xì phốt - hư bạc đạn",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690acb8deef8a2a24336f8b4"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PT4",
+  "task": "Dàn xã lên xuống không được - bị đội motor (do sản xuất vô bobbin không đều)",
+  "members": [
+    "Tài",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ae8f5b8452afc9a4f7ba6"
+  },
+  "date": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "Đai ốc xiết cục ren thau trục ren đóng mở dàn thu bị bung : kiểm tra và xiết lại",
+  "members": [
+    "Tú",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ae8f5b8452afc9a4f7ba7"
+  },
+  "date": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "Trục buly dây đai capstan bị mòn cốt bạc đạn : thay trục mới (theo bản vẽ)",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ae8f5b8452afc9a4f7ba8"
+  },
+  "date": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Lắp 12 mâm thắng vào máy và tháo 12 mâm về làm tiếp",
+  "members": [
+    "Sang",
+    "V.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ae8f5b8452afc9a4f7ba9"
+  },
+  "date": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "5S",
+  "task": "Sắp xếp lại phòng",
+  "members": [
+    "Tú",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ae9b6b8452afc9a4f7bab"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "everning",
+  "machine": "PS2",
+  "task": "Thay bạc đạn mâm (bạc đạn 6212: 12 cái, 6205: 12 cái, 51110: 12 cái), thay bulong xiết đầu côn mâm do bị gãy (M8 : 20 con)",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Tú",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ae9b6b8452afc9a4f7bac"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "everning",
+  "machine": "PM2",
+  "task": "thay dây đai motor và canh chỉnh lại đai ốc xiết bạc đạn (dây đai A 42:1)",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690ae9b6b8452afc9a4f7bad"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "everning",
+  "machine": "PD1",
+  "task": "Tấm chặn dây thu lồng bị bung ra ngoài do gãy ốc giữ (tháo ốc gãy taro lại lỗ ren và lắp lại)",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690aec9eb8452afc9a4f7bc1"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Thay bạc đạn và sin phốt ben (bạc đạn 6212 : 9, 6205: 9, 51110: 9, sin phốt 9 bộ), lắp 9 ben vào máy và tháo 7 ben về làm tiếp",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Tú",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690aec9eb8452afc9a4f7bc2"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "5S",
+  "task": "Vệ sinh phòng",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690aec9eb8452afc9a4f7bc3"
+  },
+  "date": {
+    "$date": "2025-10-23T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS3",
+  "task": "ben dàn 24 bobbin bị thông buồng : thay ben dự phòng",
+  "members": [
+    "V.Tuấn",
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690aec9eb8452afc9a4f7bc4"
+  },
+  "date": {
+    "$date": "2025-10-23T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Thay bạc đạn và sin phốt ben (bạc đạn 6212 : 7, 6205: 7, 51110 L 7, sin phốt 7 bộ), lắp 7 ben vào máy và tháo 20 mâm về thay bạc đạn",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Tú",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690aec9eb8452afc9a4f7bc5"
+  },
+  "date": {
+    "$date": "2025-10-23T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC4",
+  "task": "Tháo dây đai motor taping 1 về test",
+  "members": [
+    "Sup.Tuấn",
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690aec9eb8452afc9a4f7bc6"
+  },
+  "date": {
+    "$date": "2025-10-24T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS3",
+  "task": "Thay trục các đăng do bị hư bạc đạn",
+  "members": [
+    "H.Tuấn",
+    "Sup.Tuấn",
+    "Tú",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690aec9eb8452afc9a4f7bc7"
+  },
+  "date": {
+    "$date": "2025-10-24T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Thay bạc đạn mâm (bạc đạn 6212 : 15, 6205: 15, 51110 : 15)",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b05d6dc423930fb2adedf"
+  },
+  "date": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Đứt cáp dancer : thay cáp mới, nồi hơi đứt bếp, hư CB nguồn chính (bếp : 18kW, CB : 225A)",
+  "members": [
+    "H.Tuấn",
+    "Tú",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b05d6dc423930fb2adee0"
+  },
+  "date": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD2",
+  "task": "Bộ rãi bị lỗi không rãi được : reset lại",
+  "members": [
+    "H.Tuấn",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b05d6dc423930fb2adee1"
+  },
+  "date": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Phòng sấy số 1",
+  "task": "Gắn quạt thổi mới",
+  "members": [
+    "H.Tuấn",
+    "Sup.Tuấn",
+    "Tú",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b05d6dc423930fb2adee2"
+  },
+  "date": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Thay bạc đạn mâm và ben (bạc đạn 6212 : 10, 6205: 10, 51110 : 10, sin phốt 5 bộ) , và gắn 10 mâm vào máy",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b05d6dc423930fb2adee3"
+  },
+  "date": {
+    "$date": "2025-10-26T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Tháo mâm và ben thay bạc đạn và sin phốt (bạc đạn 6212 : 17, 6205 : 17, 51110 : 17, sin phốt 5 bộ ), khoan lỗ mâm để lần sau tháo cho dễ (khoan 5 cái), thay đấu cấp khi nhanh cho ben (đầu 8-13: 60 cái, 10-13 : 40 cái) (đã xong)",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Tú",
+    "Hoàng",
+    "Đăng",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b05d6dc423930fb2adee4"
+  },
+  "date": {
+    "$date": "2025-10-26T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "Trục ren dàn thu bị bung : kiểm tra hàn lại then và lắp đặt",
+  "members": [
+    "Sang",
+    "V.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0746dc423930fb2adeec"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PI2",
+  "task": "Chỉnh lại lực căng dancer xã",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0746dc423930fb2adeed"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "Kiểm tra máy test do bị dính nước : tháo vệ sinh và sấy lại",
+  "members": [
+    "H.Tuấn",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0746dc423930fb2adeee"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Thay than motor bộ kéo (than IC 39 : 20 cục), cục đối trọng chuyển cuộn bị rớt : do hư bulong giữ : khoan taro lại và thay bulong mới",
+  "members": [
+    "H.Tuấn",
+    "Tú",
+    "Trường",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0746dc423930fb2adeef"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PM3",
+  "task": "Lắp đồng hồ đo tốc độ (MP5W-4N : 2 cái)",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0746dc423930fb2adef0"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PM4",
+  "task": "Lắp đồng hồ đo tốc độ (MP5W-4N : 2 cái)",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0746dc423930fb2adef1"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS3",
+  "task": "dàn 18 thắng không được : do bố thắng chai và mòn : thay bố thắng mới",
+  "members": [
+    "Tú",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0746dc423930fb2adef2"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PI2",
+  "task": "Hàn lại thanh đỡ bobbin dàn xả",
+  "members": [
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b07d2dc423930fb2adef4"
+  },
+  "date": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Thay má thắng bobbin do máy báo lỗi mòn bố thắng (lấy 1 má thắng của bộ bên trái 138286 - 2)",
+  "members": [
+    "Sang",
+    "H.Tuấn",
+    "Tú",
+    "Hoàng",
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b07d2dc423930fb2adef5"
+  },
+  "date": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "Tháo van xã nito lầu 1 vệ sinh do bị xì nito (cần đặt mua van mới do van đã mục sin và bị chặn)",
+  "members": [
+    "Sang",
+    "H.Tuấn",
+    "Tú",
+    "Hoàng",
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b08c9dc423930fb2adef7"
+  },
+  "date": {
+    "$date": "2025-10-29T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Tất cả",
+  "task": "Kiểm tra tra mở thanh ray trượt dàn thu xã các máy",
+  "members": [
+    "Sang",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b08c9dc423930fb2adef8"
+  },
+  "date": {
+    "$date": "2025-10-29T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "Van nito đường ống 60m bị xì : kiểm tra và xiết lại do lỏng bulong",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b08c9dc423930fb2adef9"
+  },
+  "date": {
+    "$date": "2025-10-29T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Xiết lại bao che khớp nối xích do bị lỏng, dán keo nắp hộp số capstan do bị rỉ nhớt",
+  "members": [
+    "Sang",
+    "Tú",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b08c9dc423930fb2adefa"
+  },
+  "date": {
+    "$date": "2025-10-29T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE3",
+  "task": "Motor thu có tiếng kêu tháo kiểm tra vệ sinh và lắp lại",
+  "members": [
+    "Sang",
+    "Trường",
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b08c9dc423930fb2adefb"
+  },
+  "date": {
+    "$date": "2025-10-29T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PB2",
+  "task": "Vệ sinh biến tần thu xoắn",
+  "members": [
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b08c9dc423930fb2adefc"
+  },
+  "date": {
+    "$date": "2025-10-29T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Chỉnh lại dancer",
+  "members": [
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b08c9dc423930fb2adefd"
+  },
+  "date": {
+    "$date": "2025-10-29T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT5",
+  "task": "Kiểm tra nguồn máy hàn băng",
+  "members": [
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b08c9dc423930fb2adefe"
+  },
+  "date": {
+    "$date": "2025-10-29T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC3",
+  "task": "Start máy thu không chạy : đang kiểm tra chưa xong ca 2 vô kiểm tra tiếp",
+  "members": [
+    "H.Tuấn",
+    "Sup.Tuấn",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0a94dc423930fb2adf22"
+  },
+  "date": {
+    "$date": "2025-10-31T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS",
+  "task": "Thay bạc đạn gối bộ xã dây tâm và tháo vệ sinh trục đầu côn vô mỡ bạc đạn (bạc đạn P210 : 2 cái)",
+  "members": [
+    "Tú",
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0a94dc423930fb2adf23"
+  },
+  "date": {
+    "$date": "2025-10-31T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm 3",
+  "task": "Thay van 1 chiều, xử lý loppe bị xì, tháo motor vệ sinh thay phốt, vô mỡ bạc đạn và sơn lại",
+  "members": [
+    "Sang",
+    "H.Tuấn",
+    "Hoàng",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0a94dc423930fb2adf24"
+  },
+  "date": {
+    "$date": "2025-10-31T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "ghi chỉ số điện các máy xưởng cáp điện",
+  "members": [
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d03dc423930fb2adf36"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CB2",
+  "task": "giám sát hỗ trợ KTV - test máy",
+  "members": [
+    "Sup.Tuấn",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d03dc423930fb2adf37"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC4",
+  "task": "Load chương trình taping 1 vào máy tính - đợi KTV hỗ trợ",
+  "members": [
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d03dc423930fb2adf38"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "Van nước hồ đường ống bị kẹt",
+  "members": [
+    "Tú",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d03dc423930fb2adf39"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "Canh chỉnh lại tích lũy",
+  "members": [
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d03dc423930fb2adf3a"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Phòng sấy",
+  "task": "lắp quạt - không vừa",
+  "members": [
+    "H.Tuấn",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d03dc423930fb2adf3b"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Hỗ trợ cơ khí làm ben",
+  "members": [
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d03dc423930fb2adf3c"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT5",
+  "task": "Hư ổ cắm điện",
+  "members": [
+    "H.Tuấn",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d72dc423930fb2adf41"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CB2",
+  "task": "giám sát hỗ trợ KTV - test máy",
+  "members": [
+    "Sup.Tuấn",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d72dc423930fb2adf42"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT1",
+  "task": "Dàn thu không xuống - thu ngược",
+  "members": [
+    "H.Tuấn",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d72dc423930fb2adf43"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CB2",
+  "task": "Làm lại encoder dàn thu capstan xoắn",
+  "members": [
+    "Sup.Tuấn",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0d72dc423930fb2adf44"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist máy",
+  "task": "checklist máy",
+  "members": [
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0ebedc423930fb2adf49"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "Trạm bơm",
+  "task": "bơm bể không hoạt động - nhảy role nhiệt",
+  "members": [
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0ebedc423930fb2adf4a"
+  },
+  "date": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PT4",
+  "task": "Dàn thu không học động - dính Estop",
+  "members": [
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0ebedc423930fb2adf4b"
+  },
+  "date": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PS2",
+  "task": "Theo dõi máy",
+  "members": [
+    "H.Tuấn",
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0ebedc423930fb2adf4c"
+  },
+  "date": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PV1",
+  "task": "Nhiệt TU3 không lên thay sensor mới (sensor J)",
+  "members": [
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0ebedc423930fb2adf4d"
+  },
+  "date": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PV1",
+  "task": "Dây sensor áp lực trục đùn insu bị hư ren - kiểm tra quắng băng keo lại tạm",
+  "members": [
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0ee6dc423930fb2adf4f"
+  },
+  "date": {
+    "$date": "2025-10-29T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PC3",
+  "task": "Dàn thu không thu ( máy không báo lỗi gì - chưa rõ nguyên nhân - chưa xong)",
+  "members": [
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0f24dc423930fb2adf51"
+  },
+  "date": {
+    "$date": "2025-10-30T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PV1",
+  "task": "preheater không hoạt động - hư cầu chì 200A - thay mới",
+  "members": [
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b0f86dc423930fb2adf5b"
+  },
+  "date": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "TE1",
+  "task": "Dàn thu ra vô không được - bị kẹt trục",
+  "members": [
+    "H.Tuấn",
+    "Tố",
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b1019dc423930fb2adf69"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "Máy lạnh lầu 1 không hoạt động - hư board mạch - dính ctt",
+  "members": [
+    "Tài",
+    "Nam",
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b1019dc423930fb2adf6a"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT4",
+  "task": "Dàn xã lên xuống không được - bị đội motor (do sản xuất vô bobbin không đều)",
+  "members": [
+    "Tài",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b1019dc423930fb2adf6b"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Bơm nước bị xì phốt - hư bạc đạn",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b10f9dc423930fb2adf6d"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE1",
+  "task": "Lắp bản lề cửa tủ máy xay nhựa (xong)",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b10f9dc423930fb2adf6e"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Máy rọc cáp",
+  "task": "motor bị lệch pha xì phốt (chưa xong)",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b10f9dc423930fb2adf6f"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TS1",
+  "task": "Dàn 18 mất nguồn 24V do đứt dây (xong)",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b10f9dc423930fb2adf70"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE2",
+  "task": "Thay ống hút chân không ống cao su phi 32-2m (xong)",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b10f9dc423930fb2adf71"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Gia cố khung bảo vệ của sổ kho vật tư",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b10f9dc423930fb2adf72"
+  },
+  "date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU4",
+  "task": "Thay bạc đạn trục dàn thu A3-A8 bạc đạn 6006 - 2 cái (xong)",
+  "members": [
+    "Tố",
+    "Đăng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b115edc423930fb2adf74"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TS1",
+  "task": "Thay lọc bụi motor thu (xong)",
+  "members": [
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b115edc423930fb2adf75"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Thu cáp mỹ làm lại bát motor quạt (xong)",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b115edc423930fb2adf76"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "làm lại đường nước tolet xưởng nhôm (xong)",
+  "members": [
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b115edc423930fb2adf77"
+  },
+  "date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE3",
+  "task": "Dàn xa dính sensor hành trình ra-canh chỉnh lại hành trình (xong)",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b11f9dc423930fb2adf79"
+  },
+  "date": {
+    "$date": "2025-10-23T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU4",
+  "task": "Tháo trục dàn thu B1-B10 hàn tiện lại (xong)",
+  "members": [
+    "Tố",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b11f9dc423930fb2adf7a"
+  },
+  "date": {
+    "$date": "2025-10-24T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TS1",
+  "task": "Thay lọc bụi",
+  "members": [
+    "Tố",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b11f9dc423930fb2adf7b"
+  },
+  "date": {
+    "$date": "2025-10-24T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TA1",
+  "task": "Thay lọc bụi",
+  "members": [
+    "Tố",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b11f9dc423930fb2adf7c"
+  },
+  "date": {
+    "$date": "2025-10-24T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TD1",
+  "task": "Thay lọc bụi",
+  "members": [
+    "Tố",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b11f9dc423930fb2adf7d"
+  },
+  "date": {
+    "$date": "2025-10-24T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE2",
+  "task": "Thay lọc bụi",
+  "members": [
+    "Tố",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b11f9dc423930fb2adf7e"
+  },
+  "date": {
+    "$date": "2025-10-24T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE3",
+  "task": "Thay lọc bụi",
+  "members": [
+    "Tố",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b11f9dc423930fb2adf7f"
+  },
+  "date": {
+    "$date": "2025-10-24T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "AS1",
+  "task": "Thay lọc bụi",
+  "members": [
+    "Tố",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b1237dc423930fb2adf81"
+  },
+  "date": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TL",
+  "task": "Vệ sinh thay lọc bụi motor",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b1237dc423930fb2adf82"
+  },
+  "date": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Hỗ trợ team 1 kiểm tra thay CB nguồn tổng nồi hơi máy hàn bơm đầu kéo",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b13e9dc423930fb2adfab"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TT1",
+  "task": "Dàn thu PLC lỗi không start được reset lại PLC - vệ sinh tra mở trục ra vô thu xã (xong)",
+  "members": [
+    "Trung",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b13e9dc423930fb2adfac"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE3",
+  "task": "Vệ sinh tra mở trục ra vô thu xã (xong)",
+  "members": [
+    "Trung",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b13e9dc423930fb2adfad"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TS1",
+  "task": "Đấu lại dây nút gạt chốt ben dàn 24 (xong)",
+  "members": [
+    "Trung",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b13e9dc423930fb2adfae"
+  },
+  "date": {
+    "$date": "2025-10-27T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TC1",
+  "task": "Thay đèn báo 1 cái - thay nút gạt 2 chiều 1 cái cho pay off 5 (xong)",
+  "members": [
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b13e9dc423930fb2adfaf"
+  },
+  "date": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "AS2",
+  "task": "Bơm dầu bàn nâng dàn 24 xì dầu do hư sin van - tháo kiểm tra thay sin mới - sin 1.78 * 4.76 - 1 cái (xong)",
+  "members": [
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b13e9dc423930fb2adfb0"
+  },
+  "date": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "AD1",
+  "task": "Thay nút gạt 2 chiều không tự giữ cho điều khiển thu 3 cái (xong)",
+  "members": [
+    "Trung",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b13e9dc423930fb2adfb1"
+  },
+  "date": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "AS2",
+  "task": "ben dàn 24 thông buồng - thay sin phốt ben 4 bộ (xong) - thay nút nhấn dàn 12 (xong)",
+  "members": [
+    "Trung",
+    "Đăng",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b1452dc423930fb2adfb3"
+  },
+  "date": {
+    "$date": "2025-10-30T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "AS1",
+  "task": "Vệ sinh tủ điện - thay lọc bụi - kiểm tra than - vệ sinh cổ gốp motor  chính - thu (xong)",
+  "members": [
+    "Trung",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b1452dc423930fb2adfb4"
+  },
+  "date": {
+    "$date": "2025-10-30T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "AS1",
+  "task": "Thay đèn báo nguồn tủ dàn nạp 12-24 đèn báo 220V-2 cái",
+  "members": [
+    "Trung",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b1452dc423930fb2adfb5"
+  },
+  "date": {
+    "$date": "2025-10-30T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "AD1",
+  "task": "Thay lọc bụi cho capstan - 2 motor thu (xong)",
+  "members": [
+    "Trung",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b148cdc423930fb2adfb7"
+  },
+  "date": {
+    "$date": "2025-10-31T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Cổng B",
+  "task": "Thay dây đấu nguồn bị chập",
+  "members": [
+    "Trung",
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690b148cdc423930fb2adfb8"
+  },
+  "date": {
+    "$date": "2025-10-31T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TI3",
+  "task": "Nhiệt độ bọc không ổn định do chạm dây đấu lại dây đầu dò (xong)",
+  "members": [
+    "Trung",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c33a0ce4f626d580e8579"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "thay ống khí capstan bị xì ( ống 8: 3m, ống 4 : 2m ), bơm mỡ dàn thu và xã",
+  "members": [
+    "Khả",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c33a0ce4f626d580e857a"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT2",
+  "task": "bao che taping bị móp do con lăn dẫn băng bá vào : kiểm tra gò lại và hàn lại thanh chặn cửa tapping",
+  "members": [
+    "Sang",
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c33a0ce4f626d580e857b"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "cắt bát và khoan lỗ để lắp máng điện mới",
+  "members": [
+    "Sang",
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c33a0ce4f626d580e857c"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE3",
+  "task": "gắn lại bao che dàn thu do bị gãy ốc giữ",
+  "members": [
+    "Sang",
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3564ce4f626d580e8581"
+  },
+  "date": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "CU2",
+  "task": "máy phát điện không đề máy được do bình yếu-sạc lại bình và đề lại máy (xong) cần theo dõi thêm",
+  "members": [
+    "Sup.Tuấn",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3564ce4f626d580e8582"
+  },
+  "date": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "CU3",
+  "task": "máy phát điện không đề máy được do bình yếu-sạc lại bình và đề lại máy (xong) cần theo dõi thêm",
+  "members": [
+    "Sup.Tuấn",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3564ce4f626d580e8583"
+  },
+  "date": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "Bơm nước sinh hoạt 1-2",
+  "task": "bị tuột áp do hư lúp bê,tháo làm lại lúp bê bơm 2 (xong) bơm 1 chờ mua lúp bê mới thay thế-lúp bê phi 60",
+  "members": [
+    "Trung",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3564ce4f626d580e8584"
+  },
+  "date": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "QC: bơm hầm dầu test cáp bơm yếu do đầu bơm dơ -vệ sinh đầu bơm (xong)",
+  "members": [
+    "Sang",
+    "Tài",
+    "Đăng",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3564ce4f626d580e8585"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU4",
+  "task": "Thay mới bơm lò hệ kính-bơm 380V*18,5KW-(1 cái)-thay giảm chấn DN100-4\"(1 cái) xong",
+  "members": [
+    "Trung",
+    "Tố",
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3564ce4f626d580e8586"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TD1",
+  "task": "máy hàn dây mất nguồn do đứt dây-đấu lại nguồn (xong),  nồi hơi không lên áp do bơm nước mất áp-xã gió lấy áp(xong)",
+  "members": [
+    "Trung",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c35eace4f626d580e8588"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "AS2",
+  "task": "vệ sinh sơn lại bao che dàn thu",
+  "members": [
+    "Trung",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c35eace4f626d580e8589"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TI3",
+  "task": "thu cuộn coil bị lỗi không kẹp cuộn được do lỗi đầu dò ben kẹp-canh chỉnh lại đầu dò ben (xong)",
+  "members": [
+    "Trung",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c35eace4f626d580e858a"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE1",
+  "task": "biến tần rãi dàn thu báo lỗi ERR 16-đang kiểm tra (chưa xong)- nhờ ca 2 vào kiểm tra tiếp",
+  "members": [
+    "Trung",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c35eace4f626d580e858b"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE1",
+  "task": "thay SSR cho nhiệt trục đùn số 4-SSR-75DA-H-1 cái (xong), thay bếp cổ tổ ong-bếp DH2505-220V*700W-1 cái (xong),  thay dây nguồn bếp cổ tổ ong-dây chịu nhiệt 2.5mm-2 mét(xong)",
+  "members": [
+    "Trung",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c36d9ce4f626d580e8596"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TL1",
+  "task": "canh chỉnh bàn nâng, hàn lại tôn lót bàn nâng",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c36d9ce4f626d580e8597"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU4",
+  "task": "xiết bulong cuộn cảm vị trí cuộn coi  do bị lỏng bulong",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c36d9ce4f626d580e8598"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU3",
+  "task": "xiết bulong cuộn cảm vị trí cuộn coi  do bị lỏng bulong",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c36d9ce4f626d580e8599"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TI3",
+  "task": "canh chỉnh lại bát  giữ ống khí vị trí thu cuộn bị cạ vào pen",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c36d9ce4f626d580e859a"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TL1",
+  "task": "canh chỉnh bàn nâng, hàn lại tôn lót bàn nâng",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c36d9ce4f626d580e859b"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TD1",
+  "task": "canh chỉnh lại bộ đỡ day của lồng thu",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3751ce4f626d580e85a0"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "Ghi thông số điện",
+  "members": [
+    "Hoàng",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3870ce4f626d580e85b5"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist nước",
+  "task": "checklist nước",
+  "members": [
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3870ce4f626d580e85b6"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist nước",
+  "task": "checklist nước",
+  "members": [
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3870ce4f626d580e85b7"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist nước",
+  "task": "checklist nước",
+  "members": [
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3870ce4f626d580e85b8"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist khí nén",
+  "task": "checklist khí nén",
+  "members": [
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3870ce4f626d580e85b9"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist khí nén",
+  "task": "checklist khí nén",
+  "members": [
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c3870ce4f626d580e85ba"
+  },
+  "date": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist khí nén",
+  "task": "checklist khí nén",
+  "members": [
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4214f9dff6c2f9aab41a"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "Bảo dưỡng máy thay nhớt hộp số capstan và dàn thu dàn xã nhớt (320 : 70l)",
+  "members": [
+    "Khả",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4214f9dff6c2f9aab41b"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "Làm trụ máng điện",
+  "members": [
+    "Sang",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4214f9dff6c2f9aab41c"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "Tháo xylanh đỡ đầu bọc trục đùn kiểm tra do bị xì nhớt ở phốt",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4291f9dff6c2f9aab41e"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TD1",
+  "task": "xử lý nối hơi số 2 bị xì nước, xử lý ben xì khi bộ nguồn xì khí, canh lại bộ đỡ day lòng thu bị tuột không giữ được dây đồng",
+  "members": [
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4291f9dff6c2f9aab41f"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TA1",
+  "task": "sửa lại ống dẫn bảo vệ dây điện bị gãy mối hàn",
+  "members": [
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4291f9dff6c2f9aab420"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE1",
+  "task": "mượn van điều áp ar 200 lên cho capstan bị hư",
+  "members": [
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d431ff9dff6c2f9aab42b"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "Bảo dưỡng máy",
+  "members": [
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d431ff9dff6c2f9aab42c"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "checklist điện",
+  "members": [
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d431ff9dff6c2f9aab42d"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Kiểm kê vật tư",
+  "members": [
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d43aff9dff6c2f9aab42f"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "Bảo dưỡng máy",
+  "members": [
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d43aff9dff6c2f9aab430"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "checklist điện",
+  "members": [
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d43aff9dff6c2f9aab431"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT5",
+  "task": "dàn thu chạy được 1 chiều, không chạy ngược được (do biến tần parker DC chỉ có 2Q) hiện tại đang đổi field để chạy ngược cho sản xuất cắt cáp : 1 là đầu 2 ctt để đảo chiều field., 2 là đổi biến tần 4Q",
+  "members": [
+    "Tài",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d43aff9dff6c2f9aab432"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Theo dõi Sơn Hà bảo trì thang máy",
+  "members": [
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d43aff9dff6c2f9aab433"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Theo KTV khảo sát máy PC3",
+  "members": [
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4457f9dff6c2f9aab43b"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TA1",
+  "task": "hàn lại đường ống dẫn dây điện dàn xã (xong)",
+  "members": [
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4457f9dff6c2f9aab43c"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TD1",
+  "task": "Xử lý đường nước cấp nối hơi số 2 bị xì nước - quấn cao su non siết lại ống (xong)",
+  "members": [
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4457f9dff6c2f9aab43d"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "checklist điện",
+  "members": [
+    "Trung"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d4457f9dff6c2f9aab43e"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist máy",
+  "task": "checklist máy",
+  "members": [
+    "Trung"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d457df9dff6c2f9aab443"
+  },
+  "date": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PE2",
+  "task": "Máy hút nhựa chạy liên tục (chỉnh lại lưỡi gà và Timer)",
+  "members": [
+    "H.Tuấn",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d457df9dff6c2f9aab444"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "TE1",
+  "task": "Kiểm tra biến tần bộ rải dàn thu báo lỗi Err 16",
+  "members": [
+    "Sup.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d457df9dff6c2f9aab445"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PD1",
+  "task": "Vệ sinh ống dầu dò mực nước nồi hơi số 1",
+  "members": [
+    "H.Tuấn",
+    "Sup.Tuấn",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d457df9dff6c2f9aab446"
+  },
+  "date": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PT2",
+  "task": "Gò lại bao che Taping bị móp",
+  "members": [
+    "V.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690d457df9dff6c2f9aab447"
+  },
+  "date": {
+    "$date": "2025-11-06T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PD1",
+  "task": "Reset lỗi biến tần thu không chạy",
+  "members": [
+    "H.Tuấn",
+    "Sup.Tuấn",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691135dfcdf894df5ab78fb7"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "CB2",
+  "task": "Canh chỉnh lại của lồng thu mở ra bị kẹt con lăn dẫn hướng",
+  "members": [
+    "H.Tuấn",
+    "V.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691135dfcdf894df5ab78fb8"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PE3",
+  "task": "Thay đồng hồ TK4H-14SN nhiệt vùng 6 trục đùn bị hư tiếp điểm Out quạt -> nhiệt lên cao",
+  "members": [
+    "Sup.Tuấn",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691135dfcdf894df5ab78fb9"
+  },
+  "date": {
+    "$date": "2025-11-08T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "CB2",
+  "task": "Hướng dẫn vận hành lên Bobbin thu bị kẹt do thực hiện sai thao tác",
+  "members": [
+    "Sup.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691135dfcdf894df5ab78fba"
+  },
+  "date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PD1",
+  "task": "Canh chỉnh lại dancer do khi chuyển cuộn lên cao chạm giới hạn hành trình",
+  "members": [
+    "Tú",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691135dfcdf894df5ab78fbb"
+  },
+  "date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PE1",
+  "task": "motor hút nhựa lệch pha (chưa xong)",
+  "members": [
+    "Tú",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691135dfcdf894df5ab78fbc"
+  },
+  "date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "CB1",
+  "task": "Thu nhanh bước xoắn không đạt - chưa tìm ra nguyên nhân - nhờ ca 1 vào kiểm tra lại",
+  "members": [
+    "Tú",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fc1"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm CU4",
+  "task": "Thay van vấp vào motor",
+  "members": [
+    "Đăng",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fc2"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm CU4",
+  "task": "Cắt hàn nối tiện ren đường ống loppe",
+  "members": [
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fc3"
+  },
+  "date": {
+    "$date": "2025-11-08T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm TE",
+  "task": "Lắp đường ống loppe",
+  "members": [
+    "Tố",
+    "Đăng",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fc4"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "Dàn xã ra vô không được - hư cục ren thau - thay cục mới",
+  "members": [
+    "Sang",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fc5"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PI2",
+  "task": "Máy thu cuộn không hoạt động - gãy lò xo - thay lò xo mới",
+  "members": [
+    "Khả",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fc6"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC3",
+  "task": "Bộ rãi hoạt động không ổn định - trục ren bị khô - tra mở bò",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fc7"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "checklist điện",
+  "members": [
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fc8"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "Dàn thu ra vô không được - rớt ti ren khỏi khớp nối do then bị mòn",
+  "members": [
+    "Sang",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fc9"
+  },
+  "date": {
+    "$date": "2025-11-08T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "checklist điện",
+  "members": [
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113770cdf894df5ab78fca"
+  },
+  "date": {
+    "$date": "2025-11-08T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "kiểm tra bình - kích bình máy phát lò đồng",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691139c8cdf894df5ab78fda"
+  },
+  "date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Cục cân đối chuyển cuộn bị rớt",
+  "members": [
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113b03cdf894df5ab78ff2"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Mất nguồn máy lạnh",
+  "members": [
+    "Nhựt"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69113be8cdf894df5ab79000"
+  },
+  "date": {
+    "$date": "2025-11-07T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TI3",
+  "task": "Bếp cổ không lên nhiệt, bị đứt, thay bếp cổ mới",
+  "members": [
+    "Trung",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6912889c0f36d36ae6df1090"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "Motor hút nhựa lệch pha - dính ctt (thay motor và ctt mới)",
+  "members": [
+    "Trung",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6912889c0f36d36ae6df1091"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE2",
+  "task": "Nhiệt đầu bọc 1 không lên - thay sensor mới",
+  "members": [
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6912889c0f36d36ae6df1092"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CB1",
+  "task": "Khung xoắn không hoạt động - máy đang chạy ổn + theo dõi thêm",
+  "members": [
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6912889c0f36d36ae6df1093"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC1",
+  "task": "Thay nút Jog payoff 2",
+  "members": [
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6912889c0f36d36ae6df1094"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "checklist điện",
+  "members": [
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6912889c0f36d36ae6df1095"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS3",
+  "task": "ben dàn 12 - 18 lên xuống khôn được bể ống khí thay ống khí mới",
+  "members": [
+    "V.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69128ff70f36d36ae6df1097"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PD1",
+  "task": "Bully chuyển cuộn chạy quá hành trình do bully không nhận được tín hiệu sensor - canh chỉnh lại sensor (xong)",
+  "members": [
+    "Tài",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69128ff70f36d36ae6df1098"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU2",
+  "task": "Kiểm tra Reset lại bộ sạc máy phát điện không sạc được",
+  "members": [
+    "Sup.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69128ff70f36d36ae6df1099"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU3",
+  "task": "Kiểm tra Reset lại bộ sạc máy phát điện không sạc được",
+  "members": [
+    "Sup.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69128ff70f36d36ae6df109a"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PD1",
+  "task": "Cục đối trọng chuyển bị gãy bulong giữ, bung bát giữ làm xước dây đai: kiểm tra hàn lấy ốc gãy gắn lại bát giữ và cục đối trọng (cần đặt dây đai và thanh chuyển cuộn mới do lỗ ren nhôm đã bị tuôn ren hư khó xử lý)",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691533890f7dec438de4822d"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PM5",
+  "task": "Gắn đồng hồ đo tốc độ MP5W",
+  "members": [
+    "H.Tuấn",
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691533890f7dec438de4822e"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PM6",
+  "task": "Gắn đồng hồ đo tốc độ MP5W",
+  "members": [
+    "H.Tuấn",
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691533890f7dec438de4822f"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Vệ sinh heater change",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691533890f7dec438de48230"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Tăng chỉnh dây đai cửa phòng test",
+  "members": [
+    "Sang",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691533890f7dec438de48231"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT2",
+  "task": "Hàn lại nắp cống",
+  "members": [
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691534290f7dec438de48233"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TS1",
+  "task": "Xử lý xì nhớt (theo dõi thêm)",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691534290f7dec438de48234"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TD1",
+  "task": "tuột xích dàn thu (xong)",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691534290f7dec438de48235"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE1",
+  "task": "Thu tự dừng (xong)",
+  "members": [
+    "Trung",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691534290f7dec438de48236"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "checklist điện",
+  "members": [
+    "Trung"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691534290f7dec438de48237"
+  },
+  "date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Gắn ắc quy máy phát lò đồng",
+  "members": [
+    "Sup.Tuấn",
+    "Trung",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691534980f7dec438de4823c"
+  },
+  "date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PC1",
+  "task": "p.of4 bị rớt mặt bích đầu côn : kiểm tra và gắn lại",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691534980f7dec438de4823d"
+  },
+  "date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PV1",
+  "task": "nối lại xích tích lũy do bị đứt, chỉnh lại biến trở,  gắn lại khớp nối trục ren ra vô dàn thu do bị bung gờ rãnh then",
+  "members": [
+    "Tú",
+    "Tài",
+    "Đăng",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6915352f0f7dec438de48248"
+  },
+  "date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PC3",
+  "task": "dàn pay off 5 mất pha do lỏng dây nguồn cấp-siết lại dây nguồn(xong)",
+  "members": [
+    "Tài",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691535af0f7dec438de4825c"
+  },
+  "date": {
+    "$date": "2025-11-11T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Làm bát gia cố lại đầu tạ thanh Pulley chuyển cuộn dàn thu Spooler",
+  "members": [
+    "Sang",
+    "V.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69153aa60f7dec438de48273"
+  },
+  "date": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "máy test bể 2 cục sứ do sản xuất  kéo cáp làm gãy sứ, thay sứ mới",
+  "members": [
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69153aa60f7dec438de48274"
+  },
+  "date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "Cục cân đối chuyển cuộn bị rớt, gãy ốc giữ cục cân hàn khoang lại lỗ ốc giữ",
+  "members": [
+    "Sang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69167f88903705b33174c6c8"
+  },
+  "date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "Gắn máng điện mới",
+  "members": [
+    "H.Tuấn",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69167f88903705b33174c6c9"
+  },
+  "date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "checklist điện",
+  "members": [
+    "H.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69167f88903705b33174c6ca"
+  },
+  "date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT4",
+  "task": "Dàn xả không lên xuống được",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69167f88903705b33174c6cb"
+  },
+  "date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PA1",
+  "task": "Chuyển dàn thu từ TE3 qua",
+  "members": [
+    "H.Tuấn",
+    "Hoàng",
+    "Nam",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69167f88903705b33174c6cc"
+  },
+  "date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "Thay dây thắng motor thu",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69167fec903705b33174c6ce"
+  },
+  "date": {
+    "$date": "2025-11-13T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TD1",
+  "task": "thay ống khí  lòng thu ống khí phi 8 số lượng 10 mét ống khí phi 10 số lượng 4 mét (xong)",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69167fec903705b33174c6cf"
+  },
+  "date": {
+    "$date": "2025-11-13T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TA1",
+  "task": "Vệ sinh motor",
+  "members": [
+    "Trung",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69167fec903705b33174c6d0"
+  },
+  "date": {
+    "$date": "2025-11-13T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TD1",
+  "task": "Vệ sinh motor",
+  "members": [
+    "Trung",
+    "Hiếu"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69167fec903705b33174c6d1"
+  },
+  "date": {
+    "$date": "2025-11-13T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TS1",
+  "task": "kiểm tra xử lý lại vị trí xì nhớt dàn 24 (theo dõi thêm)",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691680b2903705b33174c6d3"
+  },
+  "date": {
+    "$date": "2025-11-13T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PV1",
+  "task": "nối lại xích tích lũy do bị đứt, chỉnh lại biến trở, gắn lại khớp nối trục ren ra vô dàn thu do bị bung gờ rãnh then",
+  "members": [
+    "Tú",
+    "Tài",
+    "Đăng",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691680b2903705b33174c6d4"
+  },
+  "date": {
+    "$date": "2025-11-13T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PV1",
+  "task": "captan đóng không chặt do lỗi van khí 5/2 (xong)",
+  "members": [
+    "Tài",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691680b2903705b33174c6d5"
+  },
+  "date": {
+    "$date": "2025-11-13T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PS3",
+  "task": "dàn 12 không jog được do nhảy cb motor jog(xong)",
+  "members": [
+    "Tài",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691680b2903705b33174c6d6"
+  },
+  "date": {
+    "$date": "2025-11-13T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "Phòng sấy số 1",
+  "task": "màn hình đk không hiển thị quạt chạy nhấp nháy liên tục-do lõng phích cắm dây đk-cắm lại dây đk (xong)",
+  "members": [
+    "Tài",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691680e8903705b33174c6d8"
+  },
+  "date": {
+    "$date": "2025-11-13T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PA1",
+  "task": "Cấy bulong M10 gắn đai khuôn Capstan bị gãy",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a999bea50dc12ac800207"
+  },
+  "date": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm số 1",
+  "task": "kiểm tra",
+  "members": [
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a999bea50dc12ac800208"
+  },
+  "date": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "kiểm tra đường ống xã nước trên máy nhà - chưa được",
+  "members": [
+    "Sang",
+    "H.Tuấn",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a999bea50dc12ac800209"
+  },
+  "date": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "motor báo lỗi No Compressed air - không sấy - chưa được",
+  "members": [
+    "H.Tuấn",
+    "Sup.Tuấn",
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a999bea50dc12ac80020a"
+  },
+  "date": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "tách nguồn động lực ra CB riêng",
+  "members": [
+    "Sang",
+    "H.Tuấn",
+    "V.Tuấn",
+    "Hoàng",
+    "Nam",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a999bea50dc12ac80020b"
+  },
+  "date": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE2",
+  "task": "nhiệt vùng số 2 không lên",
+  "members": [
+    "H.Tuấn",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a99c5ea50dc12ac80020d"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD2",
+  "task": "lò hơi không hoạt động - kiểm tra nguồn lại điều khiển",
+  "members": [
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a99c5ea50dc12ac80020e"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE3",
+  "task": "hàn lại buly dẫn hướng máy quắn chỉ",
+  "members": [
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9a70ea50dc12ac800215"
+  },
+  "date": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm CU2",
+  "task": "trạm bơm Cu2 tuột nước lúppe do kẹt ti dẫn hướng sô lượng 2 bơm (xong)",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9a70ea50dc12ac800216"
+  },
+  "date": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE1",
+  "task": "bơm mỡ bò motor trục đùn (xong)",
+  "members": [
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9a70ea50dc12ac800217"
+  },
+  "date": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU2",
+  "task": "thay 12 van 21 và 12 van 27 ví trí nước làm mát",
+  "members": [
+    "Trung",
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9a70ea50dc12ac800218"
+  },
+  "date": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU3",
+  "task": "thay 12 van 21 và 12 van 27 ví trí nước làm mát",
+  "members": [
+    "Trung",
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9a70ea50dc12ac800219"
+  },
+  "date": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU3",
+  "task": "xử lý xì nước cuộn coi",
+  "members": [
+    "Tố",
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac800226"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "Thay 12 máng điện 100 x 200 x 2500 và đi lại dây",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac800227"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "Thay bộ Tool Temp nhiệt đầu bọc TU3",
+  "members": [
+    "H.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac800228"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC2",
+  "task": "Thay dây đai A44 dàn xả",
+  "members": [
+    "Sang",
+    "V.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac800229"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC3",
+  "task": "Thay lọc bụi",
+  "members": [
+    "H.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac80022a"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "Thay lọc bụi",
+  "members": [
+    "H.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac80022b"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS3",
+  "task": "Thay lọc bụi",
+  "members": [
+    "H.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac80022c"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PI1",
+  "task": "Thay lọc bụi",
+  "members": [
+    "H.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac80022d"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "Thay lọc bụi",
+  "members": [
+    "H.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac80022e"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE3",
+  "task": "Thay lọc bụi",
+  "members": [
+    "H.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac80022f"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TS1",
+  "task": "Thay lọc bụi",
+  "members": [
+    "H.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9b98ea50dc12ac800230"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TA1",
+  "task": "Thay lọc bụi",
+  "members": [
+    "H.Tuấn",
+    "Khả"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9c54dc1f5891371239a0"
+  },
+  "date": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PD1",
+  "task": "lỗi estop -reset lại plc (xong)",
+  "members": [
+    "Tài",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9c54dc1f5891371239a1"
+  },
+  "date": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PT5",
+  "task": "đảo chiều motor thu (xong)",
+  "members": [
+    "Tài",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a9c54dc1f5891371239a2"
+  },
+  "date": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PV1",
+  "task": "kiểm tra motan không sáy-chưa tìm ra nguyên nhân-máy đang chạy-nhờ ca 1 kiểm tra tiếp",
+  "members": [
+    "Tài",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d53feb8ff59ead30f8f0d"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PE3",
+  "task": "motor capstan đang chạy tự dừng - motor quay không nổi - lối stall trip ( chưa xong )",
+  "members": [
+    "Trung",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d53feb8ff59ead30f8f0e"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU2",
+  "task": "xử lý 2 pen thông buồng dàn thu A1, B1 ( xong)",
+  "members": [
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d53feb8ff59ead30f8f0f"
+  },
+  "date": {
+    "$date": "2025-11-16T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU3",
+  "task": "canh lại tâm bộ kẹp, kiểm tra vị trí rò nước cuộn coi (xong)",
+  "members": [
+    "Thọ"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d54b1b8ff59ead30f8f11"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "lắp máng điện mới và nối dây ( xong )",
+  "members": [
+    "H.Tuấn",
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d54b1b8ff59ead30f8f12"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC1",
+  "task": "vô mỡ bạc đạn đầu côn dàn thu và xã",
+  "members": [
+    "V.Tuấn",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d54b1b8ff59ead30f8f13"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "khớp nối trục ren ra vô dàn xã 2 bị hư rãnh then : thay khớp nối mới",
+  "members": [
+    "Sang",
+    "V.Tuấn"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d54b1b8ff59ead30f8f14"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PT2",
+  "task": "lắp bóng đèn tapping 1 và 2",
+  "members": [
+    "Tú",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d54b1b8ff59ead30f8f15"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PC4",
+  "task": "thay bóng đèn tapping 2",
+  "members": [
+    "Tú",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d54b1b8ff59ead30f8f16"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PD1",
+  "task": "thanh chặn chuyển  cuộn lồng thu bị kẹt không dóng: kiểm tra chỉnh lại tra thêm mỡ bò bôi trơn",
+  "members": [
+    "Tú",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d54b1b8ff59ead30f8f17"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV1",
+  "task": "dàn thu không đóng được do dính cthh : kiểm tra chỉnh lại cthh",
+  "members": [
+    "Tú",
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d54b1b8ff59ead30f8f18"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Checklist điện",
+  "task": "checklist điện",
+  "members": [
+    "Tài"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d5509b8ff59ead30f8f1a"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE1",
+  "task": "kiểm tra các phích cắm bếp lõng vs bị hư-xử lý phích lõng-thay phích cắm bị hư-1 cái(xong)",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d5509b8ff59ead30f8f1b"
+  },
+  "date": {
+    "$date": "2025-11-17T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU2",
+  "task": "dàn thu A1 lên ben yếu tháo van 5/2 vs ben vệ sinh-(xong)",
+  "members": [
+    "Hiếu",
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d0256656"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PD1",
+  "task": "cửa bộ kéo không mở được",
+  "members": [
+    "Trung",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d0256657"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PI2",
+  "task": "dàn thu cuộn coil không đếm mét- hư encoder chưa có để thay",
+  "members": [
+    "Trung",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d0256658"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "TT1",
+  "task": "máy hàn băng nhôm k hoạt động - mất nguồn 220V",
+  "members": [
+    "Trung",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d0256659"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "TE3",
+  "task": "thay biến trở dàn thu",
+  "members": [
+    "Trung",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d025665a"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PI2",
+  "task": "bộ đếm mét rời hư sensor - do máy đang chạy nên sx yêu cầu C1 thay",
+  "members": [
+    "Trung",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d025665b"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PE1",
+  "task": "chỉnh lại thắng dàn xã",
+  "members": [
+    "Khả",
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d025665c"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PE3",
+  "task": "dàn thu ra vào không được- kẹt trục ren",
+  "members": [
+    "Khả",
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d025665d"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "AS1",
+  "task": "cổ góp xì khí",
+  "members": [
+    "Khả",
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d025665e"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PE1",
+  "task": "dàn thu không lên xuống được",
+  "members": [
+    "Trung",
+    "Nam"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6df04c9d6b42d025665f"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "evening",
+  "machine": "PC4",
+  "task": "tháo buly con lăn cho SX",
+  "members": [
+    "Khả",
+    "Tố"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6ed24c9d6b42d0256661"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE3",
+  "task": "tháo khớp nối mottor kiểm tra và cài lại chương trình biến tần capstan Sửa khuôn bị hỏng để chạy đơn hàng gấp",
+  "members": [
+    "H.Tuấn",
+    "Tú",
+    "Hoàng",
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6ed24c9d6b42d0256662"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "thay đầu dò nhiệt đầu bọc T 2 3 4 5 và làm lại dây ( đầu dò J : 4 cái )",
+  "members": [
+    "Hoàng",
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6ed24c9d6b42d0256663"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PM4",
+  "task": "biến tần báo lỗi tự dừng : reset lại ( chưa rõ nguyên nhân )",
+  "members": [
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6ed24c9d6b42d0256664"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE3",
+  "task": "hộp số thu bị rớt do gãy bulong mặt bích giữ : kiểm tra lấy bulong gãy và lắp lại hộp số",
+  "members": [
+    "H.Tuấn",
+    "Tú",
+    "Tài",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6ed24c9d6b42d0256665"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "sửa lại bát gắn cooling trục xoắn do bị gãy chốt định vị : kiểm tra và cấy lại chốt định vị",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6ed24c9d6b42d0256666"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Tiện bạc canh kt : 48 x 38,5 x 9 theo yêu cầu KS Thành",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6ed24c9d6b42d0256667"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS3",
+  "task": "bảo dưỡng máy : tháo 6 ben thay bạc đạn và sin phốt ( bạc đạn 6212 , 6205, 51110 : 6 cái , sin phốt 6 bộ ), vệ sinh mottor và cổ góp mottor chính",
+  "members": [
+    "H.Tuấn",
+    "V.Tuấn",
+    "Hoàng",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6ed24c9d6b42d0256668"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS2",
+  "task": "thay sensor bộ đếm ( PR 12-4dp)",
+  "members": [
+    "H.Tuấn",
+    "Hoàng"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6f2d4c9d6b42d025666a"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE3",
+  "task": "tiện lại bậc mặt bích hộp số và gắn lại",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6f2d4c9d6b42d025666b"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PV2",
+  "task": "thay bơm tooltemp",
+  "members": [
+    "Sup.Tuấn",
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6f2d4c9d6b42d025666c"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PE1",
+  "task": "thay bố thắng dàn xã do bố thắng bị chai",
+  "members": [
+    "Tú"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6f2d4c9d6b42d025666d"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PI2",
+  "task": "khoan làm bát gắn encoder",
+  "members": [
+    "Tú",
+    "Hoàng",
+    "Giang"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6f2d4c9d6b42d025666e"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "PS3",
+  "task": "bảo dưỡng máy : Lắp 6 ben vào máy và tháo 5 ben về  thay bạc đạn và sin phốt ( bạc đạn 6212 , 6205, 51110 : 5 cái , sin phốt 5 bộ )  - Thay thiết bị tủ dàn thu , sửa nắp và dây mottor qua lại dàn ( CB 3 pha 40A : 1, 10A : 4, CB 1 pha 10A : 1, cầu chi 32 A : 2 hộp, CB 2 pha 20A : 1 )",
+  "members": [
+    "H.Tuấn",
+    "V.Tuấn",
+    "Hoàng",
+    "Trường"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e70054c9d6b42d0256676"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU2",
+  "task": "thay giảm chấn cao su 3'',2 cái-thay phốt nhọn-phi 28-1 cái-bơm nước hệ kín(xong)",
+  "members": [
+    "Đăng",
+    "Hiếu",
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e70054c9d6b42d0256677"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "CU3",
+  "task": "thay phốt nhọn-phi 28-1 cái bơm 1 hệ kín(xong)",
+  "members": [
+    "Đăng",
+    "Hiếu",
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e70054c9d6b42d0256678"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Khác",
+  "task": "Làm lại lube bơm tháp số 2 (xong)",
+  "members": [
+    "Đăng",
+    "Hiếu",
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e70054c9d6b42d0256679"
+  },
+  "date": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TE3",
+  "task": "thay ống nước mềm bọc inox khớp nối ren 34 vị trí nước câp cho máng nước gần đầu bọc",
+  "members": [
+    "Đăng",
+    "Hiếu",
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e70054c9d6b42d025667a"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "TL1",
+  "task": "bảo trì : vệ sinh cổ góp,kiểm tra than, motor thu-xoắn-tappin (chưa xong)",
+  "members": [
+    "Hiếu",
+    "Thọ",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e70054c9d6b42d025667b"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "AS1",
+  "task": "lỗi bộ đếm do rớt bass tiếp nhận đầu dò,làm lại bass (xong)",
+  "members": [
+    "Hiếu",
+    "Nhân"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e70054c9d6b42d025667c"
+  },
+  "date": {
+    "$date": "2025-11-19T00:00:00.000Z"
+  },
+  "shift": "morning",
+  "machine": "Trạm bơm 7",
+  "task": "quạt làm mát không start được do mất nguồn đk-đấu lại dây đk(xong)",
+  "members": [
+    "Nhân"
+  ],
+  "__v": 0
+}]

@@ -36,7 +36,7 @@ exports.filterAssignments = async (req, res) => {
       query.members = member;
     }
 
-    console.log("Query:", JSON.stringify(query, null, 2));
+    //console.log("Query:", JSON.stringify(query, null, 2));
     if (machine && machine !== '-- Tất cả --') query.machine = machine;
     if (shift && shift !== '-- Tất cả --') query.shift = shift;
 

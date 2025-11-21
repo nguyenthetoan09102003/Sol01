@@ -1,75 +1,89 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
-    <div class="container-fluid px-3 d-flex justify-content-between align-items-center">
-        <a class="navbar-brand fs-4" 
-            href="https://taihancable.com.vn/" 
-            target="_blank" 
-            rel="noopener noreferrer">
-            <img src="https://taihancable.com.vn/wp-content/uploads/2024/11/taihan-1024x453.png" 
-                    alt="Taihan Logo" 
-                    style="height:40px; width:auto; margin-right:10px;">
-                Maintenance Team
+    <div class="container-fluid px-3">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="https://taihancable.com.vn/wp-content/uploads/2024/11/taihan-1024x453.png" alt="Logo" style="height:36px; width:auto;">
+            <span class="fw-semibold">Maintenance</span>
         </a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav align-items-center gap-1 ms-auto">
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
                 <% if (typeof user !== 'undefined' && user) { %>
                     <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'dashboard' ? 'active' : '' %>" href="/dashboard">
-                           <i class="bi bi-speedometer2"></i> Dashboard
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'checklist' ? 'active' : '' %>" href="/checklist">
-                            <i class="fa-solid fa-list-ul"></i> Checklist
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'assignments' ? 'active' : '' %>" href="/assignments">
-                            <i class="fa-solid fa-clipboard-list"></i> Assignments 
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'queryAssignments' ? 'active' : '' %>" href="/queryAssignments">
-                            <i class="fa-solid fa-clipboard-list"></i> Query Assignments 
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small" href="/warehouse">
-                            <i class="fa-solid fa-screwdriver-wrench"></i> Warehouse
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'report' ? 'active' : '' %>" href="/report">
-                            <i class="fa-solid fa-magnifying-glass"></i> Report
+                        <a class="nav-link px-3 small <%= activeNav === 'dashboard' ? 'active' : '' %>" href="/dashboard" aria-label="Dashboard">
+                            <i class="bi bi-speedometer2 me-2"></i>Dashboard
                         </a>
                     </li>
 
-                    <li class="nav-item ms-1 justify-content-center">
-                        <span class="nav-link fw-bold small" style="color:#ffffff; background:rgba(255,167,38,0.15); border-radius:5px; padding:5px 10px;">
-                            <i class="fa-regular fa-user"></i> <%= user.username %>
+                    <!-- Checklist dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3 small <%= (activeNav === 'checklist' || activeNav === 'todo') ? 'active' : '' %>" href="#" id="checklistDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-list-ul me-2"></i>Checklist
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end py-1" aria-labelledby="checklistDropdown">
+                            <li><a class="dropdown-item small <%= activeNav === 'checklist' ? 'active' : '' %>" href="/checklist"><i class="fa-solid fa-pen-to-square me-2"></i>Form</a></li>
+                            <li><a class="dropdown-item small <%= activeNav === 'todo' ? 'active' : '' %>" href="/todo"><i class="fa-solid fa-list-check me-2"></i>To-do</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Assignments dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3 small <%= (activeNav === 'assignments' || activeNav === 'queryAssignments') ? 'active' : '' %>" href="#" id="assignmentsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-clipboard-list me-2"></i>Assignments
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end py-1" aria-labelledby="assignmentsDropdown">
+                            <li><a class="dropdown-item small <%= activeNav === 'assignments' ? 'active' : '' %>" href="/assignments"><i class="fa-solid fa-pen-to-square me-2"></i>Form</a></li>
+                            <li><a class="dropdown-item small <%= activeNav === 'queryAssignments' ? 'active' : '' %>" href="/queryassignments"><i class="fa-solid fa-search me-2"></i>Query</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Water dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3 small <%= (activeNav && (activeNav.toString().toLowerCase() === 'water' || activeNav.toString().toLowerCase() === 'querywater')) ? 'active' : '' %>" href="#" id="waterDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-droplet me-2"></i>Water
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end py-1" aria-labelledby="waterDropdown">
+                            <li><a class="dropdown-item small <%= (activeNav && activeNav.toString().toLowerCase() === 'water') ? 'active' : '' %>" href="/water"><i class="fa-solid fa-pen-to-square me-2"></i>Form</a></li>
+                            <li><a class="dropdown-item small <%= (activeNav && activeNav.toString().toLowerCase() === 'querywater') ? 'active' : '' %>" href="/water/query"><i class="fa-solid fa-search me-2"></i>Query</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Electric dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3 small <%= (activeNav && (activeNav.toString().toLowerCase() === 'electric' || activeNav.toString().toLowerCase() === 'queryelectric')) ? 'active' : '' %>" href="#" id="electricDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bolt me-2"></i>Electric
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end py-1" aria-labelledby="electricDropdown">
+                            <li><a class="dropdown-item small <%= (activeNav && activeNav.toString().toLowerCase() === 'electric') ? 'active' : '' %>" href="/electric"><i class="fa-solid fa-pen-to-square me-2"></i>Form</a></li>
+                            <li><a class="dropdown-item small <%= (activeNav && activeNav.toString().toLowerCase() === 'queryelectric') ? 'active' : '' %>" href="/electric/query"><i class="fa-solid fa-search me-2"></i>Query</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3 small <%= activeNav === 'report' ? 'active' : '' %>" href="/report"><i class="fa-solid fa-magnifying-glass me-2"></i>Report</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3 small" href="/warehouse"><i class="fa-solid fa-screwdriver-wrench me-2"></i>Warehouse</a>
+                    </li>
+
+                    <!-- User and logout -->
+                    <li class="nav-item d-flex align-items-center ms-2">
+                        <span class="badge bg-warning text-dark rounded-pill px-3 py-2" style="font-weight:600;">
+                            <i class="fa-regular fa-user me-2"></i><%= user.username %>
                         </span>
                     </li>
-                    
                     <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small" href="/logout">
-                        <i class="bi bi-box-arrow-right"></i> Logout
-                        </a>
+                        <a class="nav-link px-3 small" href="/logout" title="Logout"><i class="bi bi-box-arrow-right"></i></a>
                     </li>
                 <% } else { %>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small" href="/login">
-                            <i class="bi bi-box-arrow-in-right"></i> Login
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 small" href="/signup">
-                            <i class="bi bi-person-plus"></i> Register
-                        </a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link px-3 small" href="/login"><i class="bi bi-box-arrow-in-right me-2"></i>Login</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 small" href="/signup"><i class="bi bi-person-plus me-2"></i>Register</a></li>
                 <% } %>
             </ul>
         </div>
     </div>
-</nav> 
+</nav>

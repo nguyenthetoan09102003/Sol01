@@ -1,0 +1,118 @@
+<%- include('../../partials/header.ejs') %>
+<div class="container mt-4">
+  <h3>Electric Recording</h3>
+  <div class="row g-3 mt-3">
+    <div class="col-md-3">
+      <label>Batch Date (fill once)</label>
+      <div class="d-flex gap-2">
+        <input type="date" id="batchDate" class="form-control" required>
+        <button id="btnChangeDate" class="btn btn-outline-secondary" style="display:none;">Change</button>
+      </div>
+    </div>
+
+    <form id="electricForm" class="col-md-9 row g-3">
+      <div class="col-md-5">
+        <label>Station Code</label>
+        <input list="stationsList" name="stationCode" class="form-control" required>
+        <datalist id="stationsList">
+          <% (stations || []).forEach(s => { %>
+            <option value="<%= s %>"></option>
+          <% }) %>
+        </datalist>
+      </div>
+      <div class="col-md-5">
+        <label>Electric Reading</label>
+        <input type="number" step="any" name="electricReading" class="form-control" required>
+      </div>
+      <div class="col-md-2 d-flex align-items-end">
+        <button type="button" id="btnAdd" class="btn btn-secondary w-100">Add to list</button>
+      </div>
+    </form>
+
+  <div class="mt-4">
+    <h5>Preview</h5>
+    <table class="table table-sm table-bordered" id="tempTable">
+      <thead>
+        <tr><th>Date</th><th>Station</th><th>Reading</th><th></th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="text-end">
+      <button type="button" id="btnSubmitAll" class="btn btn-primary">Submit All</button>
+    </div>
+  </div>
+
+  <div id="msg" class="mt-3"></div>
+</div>
+
+<script>
+const tempReadings = [];
+
+document.getElementById('btnAdd').addEventListener('click', (e) => {
+  const form = document.getElementById('electricForm');
+  const station = form.stationCode.value.trim();
+  const reading = form.electricReading.value;
+  const batchDate = document.getElementById('batchDate').value;
+  if (!batchDate) return alert('Please fill the Batch Date first (fill once)');
+  if (!station || reading === '') {
+    alert('Please provide station and reading');
+    return;
+  }
+  tempReadings.push({ stationCode: station, date: batchDate, electricReading: Number(reading) });
+  renderTable();
+  // after first add, lock the date to indicate it's one-time
+  document.getElementById('batchDate').disabled = true;
+  document.getElementById('btnChangeDate').style.display = 'inline-block';
+  form.stationCode.value = '';
+  form.electricReading.value = '';
+});
+
+document.getElementById('btnChangeDate').addEventListener('click', () => {
+  // allow user to change date (clears current temp list as changing date would invalidate entries)
+  if (!confirm('Changing the batch date will clear the current list. Continue?')) return;
+  tempReadings.length = 0;
+  renderTable();
+  document.getElementById('batchDate').disabled = false;
+  document.getElementById('btnChangeDate').style.display = 'none';
+});
+
+function renderTable() {
+  const tbody = document.querySelector('#tempTable tbody');
+  tbody.innerHTML = '';
+  tempReadings.forEach((r, i) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${new Date(r.date).toLocaleDateString()}</td><td>${r.stationCode}</td><td>${r.electricReading}</td><td><button class="btn btn-sm btn-danger" onclick="removeItem(${i})">Remove</button></td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+function removeItem(i) {
+  tempReadings.splice(i,1);
+  renderTable();
+}
+
+document.getElementById('btnSubmitAll').addEventListener('click', async () => {
+  if (tempReadings.length === 0) return alert('No readings to submit');
+  try {
+    const res = await fetch('/electric/save-multi', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({ readings: tempReadings })
+    });
+    const ct = res.headers.get('content-type') || '';
+    if (!ct.includes('application/json')) return document.getElementById('msg').innerHTML = '<div class="alert alert-danger">Server returned non-JSON response</div>';
+    const j = await res.json();
+    if (j.success) {
+      document.getElementById('msg').innerHTML = `<div class="alert alert-success">Inserted ${j.inserted.length} readings</div>`;
+      tempReadings.length = 0;
+      renderTable();
+    } else {
+      document.getElementById('msg').innerHTML = '<div class="alert alert-danger">' + (j.message || 'Error') + '</div>';
+    }
+  } catch (err) {
+    document.getElementById('msg').innerHTML = '<div class="alert alert-danger">Server error</div>';
+  }
+});
+</script>
+
+<%- include('../../partials/footer.ejs') %>
