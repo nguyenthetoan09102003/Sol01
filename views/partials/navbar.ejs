@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container-fluid px-3 d-flex justify-content-between align-items-center">
+        <a class="navbar-brand fs-4" 
+            href="https://taihancable.com.vn/" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            <img src="https://taihancable.com.vn/wp-content/uploads/2024/11/taihan-1024x453.png" 
+                    alt="Taihan Logo" 
+                    style="height:40px; width:auto; margin-right:10px;">
+                Maintenance Team
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center gap-1 ms-auto">
+                <% if (typeof user !== 'undefined' && user) { %>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'dashboard' ? 'active' : '' %>" href="/dashboard">
+                           <i class="bi bi-speedometer2"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'checklist' ? 'active' : '' %>" href="/checklist">
+                            <i class="fa-solid fa-list-ul"></i> Checklist
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'assignments' ? 'active' : '' %>" href="/assignments">
+                            <i class="fa-solid fa-clipboard-list"></i> Assignments 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'queryAssignments' ? 'active' : '' %>" href="/queryAssignments">
+                            <i class="fa-solid fa-clipboard-list"></i> Query Assignments 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small" href="/warehouse">
+                            <i class="fa-solid fa-screwdriver-wrench"></i> Warehouse
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small <%= activeNav === 'report' ? 'active' : '' %>" href="/report">
+                            <i class="fa-solid fa-magnifying-glass"></i> Report
+                        </a>
+                    </li>
+
+                    <li class="nav-item ms-1 justify-content-center">
+                        <span class="nav-link fw-bold small" style="color:#ffffff; background:rgba(255,167,38,0.15); border-radius:5px; padding:5px 10px;">
+                            <i class="fa-regular fa-user"></i> <%= user.username %>
+                        </span>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small" href="/logout">
+                        <i class="bi bi-box-arrow-right"></i> Logout
+                        </a>
+                    </li>
+                <% } else { %>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small" href="/login">
+                            <i class="bi bi-box-arrow-in-right"></i> Login
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 small" href="/signup">
+                            <i class="bi bi-person-plus"></i> Register
+                        </a>
+                    </li>
+                <% } %>
+            </ul>
+        </div>
+    </div>
+</nav> 

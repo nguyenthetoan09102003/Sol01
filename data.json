@@ -1,0 +1,25 @@
+
+{
+  "machineName": "PD1",
+  "dateChecked": {
+    "$date": "2025-10-30T03:30:00.000Z"
+  },
+  "checkedBy": "TOAN NGUYEN",
+  "checklist": [
+    {
+      "position": "Lubricant system",
+      "checkpoint": "Oil level / Mức dầu",
+      "comment": "Màn hình bị lỗi cảm ứng",
+      "_id": {
+        "$oid": "6902dbfc2e0418749d8da2b5"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-10-30T03:31:08.837Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T03:31:08.837Z"
+  },
+  "__v": 0
+}

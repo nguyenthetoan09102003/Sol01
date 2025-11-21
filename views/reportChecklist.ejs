@@ -1,0 +1,51 @@
+<%- include('./partials/header.ejs') %>
+<div class="container">
+    <h3>Machine Checklist</h3>
+
+    <form id="checklistForm">
+      <div class="row g-2 mb-3">
+        <div class="col-md-4">
+          <label class="form-label">Machine Name</label>
+          <input type="text" class="form-control" name="machineName" required>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Checked By</label>
+          <input type="text" class="form-control" name="checkedBy" required>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Date Checked</label>
+          <!-- datetime-local để user chọn ngày + giờ máy local -->
+          <input type="datetime-local" class="form-control" name="dateChecked" required>
+        </div>
+      </div>
+
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Vị trí</th>
+            <th>Điểm kiểm tra</th>
+            <th>Nội dung</th>
+            <th>Ảnh minh họa</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="checklistTable">
+          <tr class="row-template">
+            <td><input class="form-control position" placeholder="Dàn xả / Dàn thu ..."></td>
+            <td><input class="form-control checkpoint" placeholder="Tủ điện / Biến tần ..."></td>
+            <td><input class="form-control comment" placeholder=""></td>
+            <td><input type="file" accept="image/*" class="form-control image"></td>
+            <td><button type="button" class="btn btn-danger btn-sm remove-row"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="mb-3">
+        <button type="button" id="addRow" class="btn btn-secondary btn-sm"><i class="fa-solid fa-plus"></i> Thêm hàng
+            </button>
+        <button type="submit" class="btn btn-primary btn-sm">Lưu</button>
+      </div>
+    </form>
+  </div>
+  <script src="/js/reportChecklist.js"></script>
+<%- include('./partials/footer.ejs') %>
